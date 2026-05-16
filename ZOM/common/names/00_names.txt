@@ -1,0 +1,130 @@
+### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+### Operations
+# Operations will randomly pick from national pools until exhausted
+# You can specify a strategic region for which an order name will be drawn
+# if any enemy province along the frontline matches this strategic region, this sub-pool will be considered and used in preference to default.
+# Whether this 'historical' name pool is exhausted is dependent on the define: HISTORICAL_ORDER_NAME_EXHAUSTION
+# Strategic region index '0' is the generic national pool.
+# You can specify the same name in several regions, though I would suggest not doing this too often, for performance reasons.
+# After this, a first and second will be randomly picked from the default pool
+# The prefix must be provided for all pools
+
+
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+
+
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+
+	operation = {
+		0 = { o_default_operation }
+	}
+
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+
+}
+
+
+
+IAX = {
+	male = {
+		names = { "Milad" "Eder" "Unatsok" "Hassantsok" "Karkai" "Majid" "Aitz" "Sonaiur" "Hossein" "Chenam" 
+			"Xang" "Eneko" "Nima" "Behdi" "Ibai" "Farhaman" "Benaitor" "Shahi" "Ahma" "Farkaizka" 
+			"Karhahrahima" "Armang" "Unai" "Jigme" "Gaitorka" "Heng" "Aitorka" "Peymad" "Amang" "Amir" "Arma" "Ebram" "Gorka" "Kavid" "Fangdu" "Ahmad" 
+			"Mosseing" "Omid" "Jigme" "Farhamaitork" "Sonat" "Milad" "Ibang" "Long" "Phunti" "Reza" 
+			"Unama" "Ibaitz" "Eder" "Omin" "Wang" "Eneko" "Omir" "Aitor" "Henamir" "Ander" 
+			"Lobsang" "Navid" "Ramang" "Ekaizkai" "Jonaizka" "Amin" "Koldo" "Gorkaizkaitz" "Behdi" "Hassei" 
+			"Ming" "Babier" "Lonaitorkaiz" "Xang" "Iker" "Ibaizka" "Saeed" "Mostafa" "Navas" "Majid" "Ilkerha" "Serkassan" "Faruk" "Zafa" "Harhatuhamid" "Saeed" "Anilmazad" "Manod" 
+			"Alih" "Pramalanesh" "Ilkerem" "Peyman" "Premad" "Onur" "Zafer" "Zafa" "Sent" "Barharhavas" "Utku" 
+			"Emid" "Ominan" "Andi" "Suryan" "Itzam" "Bama" "Oxib" "Balam" "Moctez" "Lutfi" "Ahkin" "Kukulkanek" "Wayanek" "Ikalama" "Chua" "Oxib" "Tecun" "Tohichen" "Kanek" "Fajari" "Tuna" "Rama" "Ketut" "Dewa" "Suryan" "Mario" "Andi" 
+			"Balam" "Ikalam" "Chakalam" "Agus" "Ahkin" "Ikang" "Tohil" "Fajario" "Sakti" "Arjun" 
+			"Decus" "Vitus" "Lyes" "Amoun" "Hornek" "Ekchicun" "Gaian" "Augulus" "Paulus" "Pakarro" 
+			"Nacaeverus" "Mimus" "Flaus" "Kanniscus" "Ekcharro" "Aziz" "Yaximus" "Severus" "Tecus" "Kukulus" 
+			"Attius" "Itzam" "Regulianus" "Drus" "Sextus" "Iskanus" "Yanus" "Gemitus" "Corne" "Massius" 
+			"Granlius" "Nonginus" "Valerius" "Nanus" "Iluk" "Viberutarcel" "Regus" "Sero" "Olius" "Marcellusus" "Regus" "Augus" "Otho" "Priscus" "Titelius" "Manuq" "Gaius" "Julus" "Claudius" "Domitus" "Prius" "Silvana" "Chidi" "Baba" "Armanti" "Iker" "Shakaito" "Fari" "Unaitorka" "Reza" "Ibak" "Rame" 
+			"Saeed" "Eneko" "Simana" "Baka" "Kwamai" "Mostafa" "Mehdi" "Omal" "Tanti" "Kwan" 
+			"Peymaiuru" "Amaq" "Domitus" "Remus" "Satish" "Vartho" "Rajivi" "Marcellianus" "Vintonius" "Quinus" "Cassius" 
+			"Cornesh" "Lonius" "Gratius" "Valusus" "Raverun" "Seveen"  }
+	}
+	female = {
+		names = { "Pemeh" 
+			"Shire" "Nahra" "Sepideh" "Sanine" "Shia" "Zhen" "Olar" "Jine" "Leire" "Fang" 
+			"Ying" "Itxashiring" "Ladan" "Nahsa" "Neki" "Aiora" "Mahi" "Sepiden" "Zurinhoa" "Tserina" 
+			"Fanin" "Tsering" "Saning" "Nara" "Yinaz" 
+			"Tserinhoa" "Foran" "Shire" "Madang" "Choa" "Leiringchen" "Fora" "Aiorate" "Zhen" "Olaro" 
+			"Olatzang" "Nahran" "Maite" "Taryam" "Fatzana" "Saryam" "Haitemeh" "Pargi" "Narges" "Marya" 
+			"Mahrang" "Elham" "Chodeh" "Taratima" "Haizea" "Nahia" "Chunsang" "Leire" "Yasmin" "Pema" 
+			"Fanina" "Nilaro" "Kunsan" "Fane" "Izarya" "Fate" "Saring" "Yingmo" "Paring" "Pemeh" 
+			"Jingchen" "Aing" "Tara" "Itxasminhode" "Nazanin" "Meilarin" "Shia" "Libe" "Mahsa" "Saning" 
+			"Sumeyli" 
+			"Leyra" "Savika" "Radha" "Anjal" "Cananazli" "Divya" "Hana" "Hulya" "Dera" "Tugh" 
+			"Latma" 
+			"Naranya" "Betha" "Roya" "Yiloofarin" "Divya" "Sanavithya" "Deepa" "Tara" "Priha" "Deetul" 
+			"Nazanepidya" "Anithanthang" "Ranisa" 
+			"Chelatari" "Itzel" "Ahau" "Indah" "Ixchel" 
+			"Destari" "Fiti" "Chau" "Desta" "Quix" "Ranisa" 
+			"Metzelatari" "Citri" "Metzelati" "Chelati" "Nina" 
+			"Yuni" "Dewi" "Ningsi" "Putra" "Chimal" "Lestari" "Imix" "Mira" "Zazil" "Lesi" 
+			"Destari" "Nicte" "Yohl" "Gaia" 
+			"Asma" "Justia" "Dihil" "Ahaustia" "Nigziridida" "Jusirida" "Lilla" "Camna" "Nonirina" "Yamillia" 
+			"Aurnemmiri" "Flaustia" "Fatia" "Lila" "Regina" "Prisrisridid" "Tulia" "Yaminelervia" "Larcila" "Virt" 
+			"Marisrida" "Yamilia" "Licte" "Lavilla" "Livia" "Lucrentona" "Paustina" "Rhea" "Assirt" "Drustinia" 
+			"Zamirtia" "Kaab" "Chacchina" "Calertia" 
+			"Corna" "Pipalpurnert" "Qimilia" "Kimuk" "Ituk" "Sabina" "Licina" "Vibia" "Silla" "Pana" 
+			"Auratinia" "Longinaanaan" "Antia" "Vibia" "Nunaq" "Sertia" "Severvia" 
+			"Nula" "Virisca" "Fausta" "Livi" "Naga" "Antonia" "Paudia" "Regina" "Ilargi" 
+			"Sane" "Royantz" "Elham" "Edurine" "Leiloofara" "Haitema" "Leila" "Izane" "Siti" "Narineh" 
+			"Neemani" "Sitimantu" "Sima" "Amin" "Sabahran" "Zurin" "Lintu" "Maitima" "Eduru" "Kesi" 
+			"Roya" "Itxaso" "Sanazane" "Lucretha" 
+			"Ashna" "Hornia" "Panya" "Alia" "Maya" "Aura" "Katakshnaand" "Anjaluk" "Tuilia" "Radha" 
+			"Alba" "Aemitha" "Deverva" "Pantha" "Justiniajali" "Gaiaja" "Ashnaq"  }
+	}
+	surnames = { "Ashmetaryam" 
+			"Etxeko" "Bihou" "Eguna" 
+			"Shong" "Oiharfara" "Mazuna" "Begia" "Bazuloa" "Ranhani" 
+			"Kutruluthaha" 
+			"Gempi" 
+			"Zambalendan" 
+			"Tojil" 
+			"Ajaraki" "Sakmul" "Amdakras" 
+			"Arbum" "Kaaxchincipe" "Piscium" 
+			"Kuvutaq" 
+			"Jaka" 
+			"Bere" "Naniq" 
+			 }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+
+
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+
+	operation = {
+		0 = { o_default_operation }
+	}
+
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+}
+

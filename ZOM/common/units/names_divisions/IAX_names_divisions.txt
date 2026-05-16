@@ -1,0 +1,63 @@
+IAX_INF_01 = {
+	name = "National Guard Infantry Battalion"
+	for_countries = {
+		IAX
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d National Guard Infantry Battalion"
+	ordered = {
+		1 = {
+			"1st Battalion, 133rd Infantry Regiment"
+		}
+		2 = {
+			"1st Battalion, 168th Infantry Regiment"
+		}
+	}
+}
+
+IAX_ART_01 = {
+	name = "National Guard Artillery Battalion"
+	for_countries = {
+		IAX
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d National Guard Artillery Battalion"
+	ordered = {
+		1 = {
+			"1st Battalion, 194th Field Artillery Regiment"
+		}
+	}
+}
+
+IAX_CAV_01 = {
+	name = "National Guard Calvalry Battalion"
+	for_countries = {
+		IAX
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"cavalry"
+	}
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+	fallback_name = "%d National Guard Calvalry Battalion"
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = {
+			"1st Squadron, 113th Calvalry Regiment"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = ZAR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = ZAR
+	}
+	provinces = {
+		1176
+		1177
+		1178
+		1179
+		1180
+		1181
+		1182
+		1183
+		1184
+		1185
+		1186
+		1187
+		1188
+		1189
+		1190
+		1191
+		1192
+		1193
+		1194
+		1195
+	}
+	local_supplies = 0
+}

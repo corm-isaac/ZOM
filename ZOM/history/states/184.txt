@@ -1,0 +1,52 @@
+state = {
+	id = 184
+	name = "STATE_184"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = HAK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = HAK
+	}
+	provinces = {
+		6117
+		6118
+		6119
+		6120
+		6121
+		6122
+		6123
+		6124
+		6125
+		6126
+		6127
+		6128
+		6129
+		6130
+		6131
+		6132
+		6133
+		6134
+		6135
+		6136
+		6137
+		6138
+		6139
+		6140
+		6141
+		6142
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,51 @@
+joint_focus = {
+	id = GXC_the_japanese_visit
+	icon = GFX_focus_PER_fascist_reach_out_to_japan
+	x = 31
+	y = 0
+	cost = 5
+	text_icon = GXC_GDC_focus_style
+	available = {
+		OR = {
+			original_tag = GDC
+			original_tag = GXC
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	bypass = {
+	}
+	ai_will_do = {
+		factor = 35
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	allow_branch = {
+		has_dlc = "No Compromise, No Surrender"
+		OR = {
+			tag = GXC
+			tag = GDC
+		}
+	}
+	completion_reward_joint_originator = {
+		add_war_support = 0.05
+	}
+	completion_reward = {
+		IF = {
+			limit = {
+				OR = {
+					tag = GXC
+					tag = GDC
+				}
+			}
+			add_political_power = 25
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = JAP
+			}
+		}
+	}
+}

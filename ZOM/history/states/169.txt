@@ -1,0 +1,54 @@
+state = {
+	id = 169
+	name = "STATE_169"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = MES
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = MES
+	}
+	provinces = {
+		4319
+		4341
+		4355
+		4356
+		5570
+		5571
+		5572
+		5573
+		5574
+		5575
+		5576
+		5577
+		5578
+		5579
+		5580
+		5581
+		5582
+		5583
+		5584
+		5585
+		5586
+		5587
+		5588
+		5589
+		5590
+		5591
+		5592
+		5593
+	}
+	local_supplies = 0
+}

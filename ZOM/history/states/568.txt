@@ -1,0 +1,44 @@
+state = {
+	id = 568
+	name = "STATE_568"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = HIM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = HIM
+	}
+	provinces = {
+		17355
+		17356
+		17357
+		17358
+		17359
+		17360
+		17361
+		17362
+		17363
+		17364
+		17365
+		17366
+		17367
+		17368
+		17369
+		17370
+		17371
+		17372
+	}
+	local_supplies = 0
+}

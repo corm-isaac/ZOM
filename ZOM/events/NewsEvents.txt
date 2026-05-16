@@ -1,0 +1,136 @@
+﻿###########################
+# News Events
+###########################
+add_namespace = news
+#Intro event
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	#major = yes
+	fire_only_once = yes
+	option = {
+		name = news.10.a
+		ROOT = {
+			news_event = {
+				id = news.11
+				hours = 12
+			}
+		}
+	}
+}
+
+# Intro 2 (IA)
+news_event = {
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_news_event_001
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = news.11.a
+		FROM = {
+			news_event = {
+				id = news.12
+				hours = 12
+			}
+		}
+	}
+}
+
+#Intro 3
+news_event = {
+	id = news.12
+	title = news.12.t
+	desc = news.12.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.12.a
+		add_political_power = 5
+	}
+}
+
+#Duluth Government Victory in the Battle of Duluth
+news_event = {
+	id = news.20
+	title = news.20.t
+	desc = news.20.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.20.a
+	}
+}
+
+#Canadian Army Victory in the Battle of Duluth
+news_event = {
+	id = news.21
+	title = news.21.t
+	desc = news.21.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.21.a
+	}
+}
+
+#Fall of Missouri
+news_event = {
+	id = news.30
+	title = news.30.t
+	desc = news.30.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.30.a
+	}
+}
+
+#Fall of Texas
+news_event = {
+	id = news.40
+	title = news.40.t
+	desc = news.40.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.40.a
+	}
+}
+
+#Missouri's Retreat!
+news_event = {
+	id = news.50
+	title = news.50.t
+	desc = news.50.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.50.a
+	}
+}
+
+#Undead Sighted!
+news_event = {
+	id = news.51
+	title = news.51.t
+	desc = news.51.d
+	is_triggered_only = yes
+	picture = GFX_news_event_001
+	fire_only_once = yes
+	option = {
+		name = news.51.a
+	}
+}
+
+#Judgement Day

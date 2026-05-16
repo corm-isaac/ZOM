@@ -1,0 +1,57 @@
+state = {
+	id = 620
+	name = "STATE_620"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = CAL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = CAL
+	}
+	provinces = {
+		18915
+		18916
+		18917
+		18918
+		18919
+		18920
+		18921
+		18922
+		18923
+		18924
+		18925
+		18926
+		18927
+		18928
+		18929
+		18930
+		18931
+		18932
+		18933
+		18934
+		18935
+		18936
+		18937
+		18938
+		18939
+		18940
+		18941
+		18942
+		18943
+		18944
+		18945
+	}
+	local_supplies = 0
+}

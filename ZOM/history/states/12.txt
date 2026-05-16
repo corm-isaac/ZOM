@@ -1,0 +1,80 @@
+state = {
+	id = 12
+	name = "STATE_12"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = JJN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = JJN
+	}
+	provinces = {
+		309
+		310
+		311
+		312
+		313
+		314
+		315
+		316
+		317
+		318
+		319
+		320
+		321
+		322
+		323
+		324
+		325
+		326
+		327
+		328
+		329
+		330
+		331
+		332
+		333
+		334
+		335
+		336
+		337
+		338
+		339
+		340
+		341
+		342
+		343
+		344
+		345
+		346
+		347
+		348
+		349
+		350
+		351
+		352
+		353
+		354
+		355
+		356
+		357
+		358
+		359
+		360
+		361
+		362
+	}
+	local_supplies = 0
+}

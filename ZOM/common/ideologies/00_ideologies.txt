@@ -1,0 +1,432 @@
+## Ideology File
+#ideology_stats - in scraps.txt
+ideologies = {
+	rule_by_most = {
+		types = {
+			direct_democracy = {
+				#rule of majority where the people represent themselves and elect a government and/or leader; 
+			}
+			representative_democracy = {
+				#rule of majority where the people elect representatives to implement public policy
+			}
+			theocratic_democracy = {
+				#rule of majority elects a government and/or leader which abides certain theocratic rules, 
+			}
+			council_democracy = {
+				#rule of majority elects a government and/or leader via a 'council' of elected officals from derived states, and those councils vote for policy or officals
+			}
+			crowned_republic = {
+				#rule of majority elects a government and/or leader while still having a monarch with limited/no powers
+			}
+			peoples_army = {
+				#rule of majority elects a government and/or leader which abides by certain military standards
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RULE_BY_MOST_1"
+			"FACTION_NAME_RULE_BY_MOST_2"
+			"FACTION_NAME_RULE_BY_MOST_3"
+		}
+		color = {
+			0
+			93
+			149			#168
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_collaboration_government = yes
+			can_create_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_decline_call_to_war = yes
+			can_force_government = yes
+			can_generate_female_aces = yes
+			can_generate_female_country_leaders = yes
+			can_generate_female_unit_leaders = yes
+			can_guarantee_other_ideologies = no
+			can_join_factions = yes
+			#can_join_factions_not_allowed_diplomacy = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_use_kamikaze_pilots = no
+			#can_declare_war_on_same_ideology = yes
+			#can_force_government = yes
+			#can_send_volunteers = yes
+			#can_puppet = yes
+			#can_only_justify_war_on_threat_country = no
+			#can_guarantee_other_ideologies = no
+			#can_access_market = no
+		}
+		war_impact_on_world_tension = 0.05		#default
+		faction_impact_on_world_tension = -0.1		#default
+		modifiers = {
+			#taken from democratic ideologies Vanilla
+			generate_wargoal_tension = 0.15			#1 -> 0.15
+			join_faction_tension = 0.8
+			#lend_lease_tension = 0.5			#0.5 -> 0
+			#send_volunteers_tension = 0.5			#0.5 -> 0
+			guarantee_tension = 0.1			#0.25 -> 0.10
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+			#embargo_cost_factor = -0.5
+			#embargo_threshold_factor = -0.5
+			political_power_gain = -0.05
+			research_speed_factor = 0.05
+		}
+		can_host_government_in_exile = yes		#default
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			# plus 50% trade opinion; default
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no		#default 
+	}
+	rule_by_class = {
+		types = {
+			#representation in government is exclusively available to those in the voting class, and often is even more restricted to a smaller, elite class
+			meritocratic = {
+				#rule of class where voting rights have to be earned via societal achievements, military service, education, etc.
+			}
+			propertarian = {
+				#rule of class where only landowners or property owners can vote. property requirements vary.
+			}
+			ethno_nationalist = {
+				#rule of class where voting rights are heavily restricted by ethnicity, cultural and/or national heritage. additionally, policy is heavily nationalistic or ethnically influenced 
+			}
+			technocratic = {
+				#rule of class where voting rights are restricted via trade, inteligence, usefullness to society etc...
+			}
+			military_stratocracy = {
+				#rule of class where voting rights depends on military status. civilians are entirely ousted
+			}
+			clerical = {
+				#rule of class where voting rights depends on religious status (i.e only those who believe in a certain religon, subscribe to various relgious beliefs, and/or hold a specific religous job)
+			}
+			ideocracy = {
+				#rule of class where voting rights depends on certain ideological beliefs (i.e only those who have membership in a political party can vote)
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RULE_BY_CLASS_1"
+			"FACTION_NAME_RULE_BY_CLASS_2"
+			"FACTION_NAME_RULE_BY_CLASS_3"
+		}
+		color = {
+			0
+			83
+			33
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_collaboration_government = yes
+			can_create_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_decline_call_to_war = yes
+			can_force_government = yes
+			can_generate_female_aces = yes
+			can_generate_female_country_leaders = yes
+			can_generate_female_unit_leaders = yes
+			can_guarantee_other_ideologies = no
+			can_join_factions = yes
+			#can_join_factions_not_allowed_diplomacy = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_use_kamikaze_pilots = no
+			#can_declare_war_on_same_ideology = yes
+			#can_force_government = yes
+			#can_send_volunteers = yes
+			#can_puppet = yes
+			#can_only_justify_war_on_threat_country = no
+			#can_guarantee_other_ideologies = no
+			#can_access_market = no
+		}
+		war_impact_on_world_tension = 0.05
+		faction_impact_on_world_tension = -0.1
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.05			#0.5 -> 0.05
+			join_faction_tension = 0.4
+			#lend_lease_tension = 0.6			#0.6 -> 0
+			#send_volunteers_tension = 0.4 #0.4 -> 0
+			guarantee_tension = 0.05			#0.4 -> 0.05
+			#drift_defence_factor = -0.3 #-0.3 -> 0
+			civilian_intel_to_others = 20
+			army_intel_to_others = 10
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 10
+			war_support_factor = 0.05
+			research_speed_factor = -0.05
+		}
+		can_host_government_in_exile = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			# plus 50% trade opinion
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no
+	}
+	rule_by_few = {
+		types = {
+			#representation in government doesn't change much from rule by class, but the real policy makers are restricted to a chosen few(often a council or small collective of people)
+			oligarchism = {
+				#rule by few where only the extermely wealthy and influential can drive policy, usually leads to the nation being helmed by a small group of elites, with a representative chosen to be the leader.
+			}
+			directorate = {
+				#rule by few where only a council of elite members (generals, corporate executives, regional govenors, etc...) collectively make decisions and appoint a leader within the group.
+			}
+			clerical_oligarchy = {
+				#rule by few where only the most important clerical figures drive policy, usually along religous lines. The leader is often a messiah or spirtual leader, but at least a sizeable amount of power lies within the elites.
+			}
+			confederation = {
+				#rule by few where only strong, influential regional figures have any say. Almost always appears within a confederation of smaller different states with regional heads that are weakly unified by a federal government.
+			}
+			intellectuals = {
+				#rule by few where only enlightened elites can force any policy change, often defined by the best scientists, engineers, philopshers etc.., and a leader is often appointed by the elites.
+			}
+			military_junta = {
+				#rule by few where only very high ranking military officals can affect policy. Often martial law is used to justify this.
+			}
+			ideocrats = {
+				#rule by few where only extermely influential, ideologically motivated, can affect policy. 
+			}
+			secret_society = {
+				#rule by few where the pre-existing government and systems are largely a facade, and a small council truly controls the nation
+			}
+			gerontocracy = {
+				#rule by few where a council of elders lead based on age, experience (and sometimes competence). 
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RULE_BY_FEW_1"
+			"FACTION_NAME_RULE_BY_FEW_2"
+			"FACTION_NAME_RULE_BY_FEW_3"
+		}
+		color = {
+			135
+			135
+			135
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_collaboration_government = yes
+			can_create_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_decline_call_to_war = yes
+			can_force_government = yes
+			can_generate_female_aces = yes
+			can_generate_female_country_leaders = yes
+			can_generate_female_unit_leaders = yes
+			can_guarantee_other_ideologies = no
+			can_join_factions = yes
+			#can_join_factions_not_allowed_diplomacy = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_use_kamikaze_pilots = no
+			#can_declare_war_on_same_ideology = yes
+			#can_force_government = yes
+			#can_send_volunteers = yes
+			#can_puppet = yes
+			#can_only_justify_war_on_threat_country = no
+			#can_guarantee_other_ideologies = no
+			#can_access_market = no
+		}
+		war_impact_on_world_tension = 0.05		#default
+		faction_impact_on_world_tension = -0.1		#default
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.05			#0.5 -> 0.05
+			join_faction_tension = 0.4
+			#lend_lease_tension = 0.6 #0.6 -> 0
+			#send_volunteers_tension = 0.4 #0.4 -> 0
+			guarantee_tension = 0.05			#0.4 -> 0.05
+			#drift_defence_factor = -0.3  #-0.3 -> 0
+			civilian_intel_to_others = 20
+			army_intel_to_others = 10
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 10
+			stability_factor = -0.05
+			war_support_factor = 0.05
+		}
+		can_host_government_in_exile = yes		#default
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			# plus 50% trade opinion, default
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no		#default
+	}
+	rule_by_one = {
+		types = {
+			#all for one
+			inner_circle = {
+				#an inner circle seeks to influence the leader's decisions making, and have varying amounts of power within the government
+			}
+			dictator = {
+				#this leader has large control of the government, while some control is doled out to regional leaders and states
+			}
+			big_brother = {
+				#this leader exercises almost total control of the government, with very little control given up.
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RULE_BY_ONE_1"
+			"FACTION_NAME_RULE_BY_ONE_2"
+			"FACTION_NAME_RULE_BY_ONE_3"
+		}
+		color = {
+			29
+			29
+			27
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_collaboration_government = yes
+			can_create_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_decline_call_to_war = yes
+			can_force_government = yes
+			can_generate_female_aces = yes
+			can_generate_female_country_leaders = yes
+			can_generate_female_unit_leaders = yes
+			can_guarantee_other_ideologies = no
+			can_join_factions = yes
+			#can_join_factions_not_allowed_diplomacy = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_use_kamikaze_pilots = no
+			#can_declare_war_on_same_ideology = yes
+			#can_force_government = yes
+			#can_send_volunteers = yes
+			#can_puppet = yes
+			#can_only_justify_war_on_threat_country = no
+			#can_guarantee_other_ideologies = no
+			#can_access_market = no
+		}
+		war_impact_on_world_tension = 0.05
+		faction_impact_on_world_tension = -0.1
+		modifiers = {
+			#justify_war_goal_when_in_major_war_time = -0.8
+			civilian_intel_to_others = 15
+			army_intel_to_others = 10
+			navy_intel_to_others = 10
+			airforce_intel_to_others = 10
+			#embargo_cost_factor = 1
+			#lend_lease_tension = 0.5
+			political_power_gain = 0.1
+			party_popularity_stability_factor = -0.15
+		}
+		can_host_government_in_exile = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			# plus 50% trade opinion
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no
+	}
+	rule_by_collective = {
+		types = {
+			communal_councils = {
+				#rule by collective where regional councils, often determined by trade or output are formed, with varying levels of democratic processes. Each council is federated into broader states, which are then tied to the federal government.
+			}
+			primitive_communism = {
+				#rule by collective where the workers exercise great control of resources and factory output, and organizations are formed to represent the workers at a political level.
+			}
+			pragmatic_collectivist = {
+				#rule by collective where communities pool together resources focused on efficent production and distrbution. Representatives from each community form the national government which seeks to protect the collective, above all else.
+			}
+			vanguard_socialism = {
+				#rule by collective where party structure is paramount, ideological control is tightly maintained. Resources and goods are heavily nationalized, and many aspects of life are heavily regulated.
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RULE_BY_COLLECTIVE_1"
+			"FACTION_NAME_RULE_BY_COLLECTIVE_2"
+			"FACTION_NAME_RULE_BY_COLLECTIVE_3"
+		}
+		color = {
+			227
+			6
+			19
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_collaboration_government = yes
+			can_create_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_declare_war_without_wargoal_when_in_war = yes
+			can_decline_call_to_war = yes
+			can_force_government = yes
+			can_generate_female_aces = yes
+			can_generate_female_country_leaders = yes
+			can_generate_female_unit_leaders = yes
+			can_guarantee_other_ideologies = no
+			can_join_factions = yes
+			#can_join_factions_not_allowed_diplomacy = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_use_kamikaze_pilots = no
+			#can_declare_war_on_same_ideology = yes
+			#can_force_government = yes
+			#can_send_volunteers = yes
+			#can_puppet = yes
+			#can_only_justify_war_on_threat_country = no
+			#can_guarantee_other_ideologies = no
+			#can_access_market = no
+		}
+		war_impact_on_world_tension = 0.05
+		faction_impact_on_world_tension = -0.1
+		modifiers = {
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			#embargo_threshold_factor = 0.5
+			#lend_lease_tension = 0.5
+			stability_factor = 0.05
+			resistance_target = 0.075
+		}
+		can_host_government_in_exile = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			# plus 50% trade opinion
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no
+	}
+}

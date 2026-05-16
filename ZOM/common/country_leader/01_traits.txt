@@ -1,0 +1,11 @@
+leader_traits = {
+	rule_by_most_booster = {
+		random = no
+		#boosts rule_by_most
+		sprite = 13
+		rule_by_most_drift = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

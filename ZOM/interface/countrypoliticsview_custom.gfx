@@ -1,0 +1,19 @@
+#MOD
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_rule_by_most_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_rule_by_class_group"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_rule_by_few_group"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_rule_by_one_group"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+}

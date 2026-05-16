@@ -1,0 +1,76 @@
+state = {
+	id = 320
+	name = "STATE_320"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = FAR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = FAR
+	}
+	provinces = {
+		6267
+		6547
+		6552
+		10407
+		10408
+		10409
+		10410
+		10411
+		10412
+		10413
+		10414
+		10415
+		10416
+		10417
+		10418
+		10419
+		10420
+		10421
+		10422
+		10423
+		10424
+		10425
+		10426
+		10427
+		10428
+		10429
+		10430
+		10431
+		10432
+		10433
+		10434
+		10435
+		10436
+		10437
+		10438
+		10439
+		10440
+		10441
+		10442
+		10443
+		10444
+		10445
+		10446
+		10447
+		11273
+		11274
+		11276
+		11278
+		11282
+		11284
+	}
+	local_supplies = 0
+}

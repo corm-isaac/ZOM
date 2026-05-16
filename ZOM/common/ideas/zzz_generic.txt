@@ -1,0 +1,70 @@
+ideas = {
+	country = {
+		#Refugees 1
+		refugees_1 = {
+			#picture =
+			modifier = {
+				weekly_manpower = 40
+				monthly_population = 0.15
+				stability_weekly_factor = -0.0005
+			}
+		}
+		#Refugees 2
+		refugees_2 = {
+			#picture =
+			modifier = {
+				weekly_manpower = 70
+				monthly_population = 25
+				stability_weekly_factor = -0.0007
+			}
+		}
+		#Refugees 3
+		refugees_3 = {
+			#picture =
+			modifier = {
+				weekly_manpower = 110
+				monthly_population = 40
+				stability_weekly_factor = -0.001
+			}
+		}
+		#infestation 1
+		infestation_1 = {
+			#picture = 
+			modifier = {
+				monthly_population = -2.5
+				weekly_manpower = -6
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+		#infestation 2
+		infestation_2 = {
+			#picture = 
+			modifier = {
+				monthly_population = -0.5
+				weekly_manpower = -12
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.1
+			}
+		}
+		#infestation 3
+		infestation_3 = {
+			#picture = 
+			modifier = {
+				monthly_population = -0.1
+				weekly_manpower = -25
+				consumer_goods_factor = 0.2
+				political_power_gain = -0.2
+			}
+		}
+		#the second dust bowl/ Ashfall/ Grayfall/ The Starving/ Year of the Bones
+		famine = {
+			modifier = {
+				monthly_population = -0.35
+				weekly_manpower = -110
+				consumer_goods_factor = 0.35
+				political_power_gain = -0.15
+			}
+		}
+	}
+}

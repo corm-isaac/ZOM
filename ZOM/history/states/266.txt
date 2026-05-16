@@ -1,0 +1,69 @@
+state = {
+	id = 266
+	name = "STATE_266"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = SPI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = SPI
+	}
+	provinces = {
+		7403
+		7404
+		7408
+		7415
+		7417
+		7420
+		7422
+		7425
+		7426
+		7432
+		7437
+		7442
+		7445
+		7446
+		7448
+		7450
+		7453
+		7454
+		7456
+		8695
+		8696
+		8697
+		8698
+		8699
+		8701
+		8703
+		8704
+		8706
+		8708
+		8709
+		8710
+		8712
+		8714
+		8715
+		8717
+		8719
+		8720
+		8721
+		8723
+		8725
+		8726
+		8727
+		8729
+	}
+	local_supplies = 0
+}

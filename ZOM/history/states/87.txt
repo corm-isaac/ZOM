@@ -1,0 +1,31 @@
+state = {
+	id = 87
+	name = "STATE_87"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = AVI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = AVI
+	}
+	provinces = {
+		2553
+		2554
+		2555
+		2556
+		2557
+	}
+	local_supplies = 0
+}

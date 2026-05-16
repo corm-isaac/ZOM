@@ -1,0 +1,34 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+joint_focus = {
+	id = HABSBURG_part_of_something_bigger
+	dynamic = yes
+	#prerequisite = { focus = }
+	#prerequisite = { focus = }
+	allow_branch = {
+		always = no
+	}
+	x = 50
+	y = 0
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+		always = no
+	}
+	joint_trigger = {
+		#HABSBURG_joint_trigger = yes
+	}
+	ai_will_do = {
+		base = 10
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	completion_reward = {
+	}
+}

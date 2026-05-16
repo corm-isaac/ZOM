@@ -1,0 +1,66 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = NTZ
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = NTZ
+	}
+	provinces = {
+		9546
+		9547
+		9549
+		9550
+		9551
+		9552
+		9553
+		9556
+		9557
+		9558
+		9559
+		9560
+		9561
+		9562
+		9564
+		9565
+		9566
+		9567
+		9569
+		9570
+		9571
+		9573
+		9574
+		9575
+		9577
+		9579
+		9580
+		9581
+		9582
+		9583
+		9584
+		9585
+		9587
+		9588
+		9589
+		9590
+		9591
+		9592
+		9593
+		9594
+	}
+	local_supplies = 0
+}

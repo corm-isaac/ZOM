@@ -1,0 +1,12 @@
+characters = {
+	IAX_john_iowa = {
+		name = "John Iowa"
+		country_leader = {
+			ideology = representative_democracy
+			traits = {
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

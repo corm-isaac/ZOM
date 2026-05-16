@@ -1,0 +1,49 @@
+state = {
+	id = 65
+	name = "STATE_65"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = GAL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = GAL
+	}
+	provinces = {
+		1895
+		1896
+		1897
+		1898
+		1899
+		1900
+		1901
+		1902
+		1903
+		1904
+		1905
+		1906
+		1907
+		1908
+		1909
+		1910
+		1911
+		1912
+		1913
+		1914
+		1915
+		1916
+		1917
+	}
+	local_supplies = 0
+}

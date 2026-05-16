@@ -1,0 +1,52 @@
+state = {
+	id = 577
+	name = "STATE_577"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = UNA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = UNA
+	}
+	provinces = {
+		17597
+		17598
+		17599
+		17600
+		17601
+		17602
+		17603
+		17604
+		17605
+		17606
+		17607
+		17608
+		17609
+		17610
+		17611
+		17612
+		17613
+		17614
+		17615
+		17616
+		17617
+		17618
+		17619
+		17620
+		17621
+		17622
+	}
+	local_supplies = 0
+}

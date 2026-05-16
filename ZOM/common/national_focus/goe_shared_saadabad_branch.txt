@@ -1,0 +1,27 @@
+joint_focus = {
+	id = SSB_the_saadabad_pact
+	x = 0
+	y = 0
+	cost = 5
+	available = {
+		always = no
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	bypass = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+		FOCUS_FILTER_STABILITY
+	}
+	allow_branch = {
+		#has_dlc = "Graveyard of Empires"
+		always = no
+	}
+	completion_reward_joint_originator = {
+	}
+}

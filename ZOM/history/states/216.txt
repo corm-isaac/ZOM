@@ -1,0 +1,46 @@
+state = {
+	id = 216
+	name = "STATE_216"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = SNA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = SNA
+	}
+	provinces = {
+		7168
+		7169
+		7170
+		7171
+		7172
+		7173
+		7174
+		7175
+		7176
+		7177
+		7178
+		7179
+		7180
+		7181
+		7182
+		7183
+		7184
+		7185
+		7186
+		7187
+	}
+	local_supplies = 0
+}

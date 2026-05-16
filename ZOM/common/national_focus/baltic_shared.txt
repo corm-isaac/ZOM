@@ -1,0 +1,201 @@
+# I seem to crash if I'm shelled...
+#	shared_focus = {
+#		id = BALTIC_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+shared_focus = {
+	#its meee
+	id = BALTIC_rejoin_the_railways
+	icon = GFX_goal_generic_construct_infrastructure
+	x = 10
+	y = 0
+	offset = {
+		x = -6
+		y = 0
+		trigger = {
+		}
+	}
+	cost = 5
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+	}
+	bypass = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	completion_reward = {
+		every_owned_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 1
+				}
+				is_capital = no
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#Axis investments
+#Allied investments
+#Attract workers
+#Modernized industry
+###########################
+#### COMMUNIST FOCUSES ####
+###########################
+shared_focus = {
+	#and meee..
+	id = BALTIC_restore_workers_republic
+	mutually_exclusive = {
+		#focus = LIT_secure_a_loyal_cabinet
+		#focus = LAT_suspend_the_constitution
+		#focus = EST_era_of_silence
+		#focus = EST_rally_the_nation
+	}
+	icon = GFX_goal_support_communism
+	x = 25
+	y = 0
+	cost = 10
+	allow_branch = {
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+			NOT = {
+				OR = {
+					#has_completed_focus = LIT_secure_a_loyal_cabinet
+					#has_completed_focus = LAT_suspend_the_constitution
+					#has_completed_focus = EST_era_of_silence
+					#has_completed_focus = EST_rally_the_nation
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			any_other_country = {
+				#we shouldn't see several Baltic states going down this path
+				OR = {
+					has_completed_focus = BALTIC_restore_workers_republic
+					focus_progress = {
+						focus = BALTIC_restore_workers_republic
+						progress > 0
+					}
+				}
+			}
+		}
+	}
+	available = {
+	}
+	bypass = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				original_tag = EST
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = EST_johannes_kabin
+		}
+		if = {
+			limit = {
+				original_tag = LAT
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = LAT_augusts_kirhensteins
+		}
+		if = {
+			limit = {
+				original_tag = LIT
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = LIT_antanas_snieckus
+		}
+		add_ideas = {
+			BALTIC_restore_workers_republic_idea
+		}
+		add_ideas = {
+			BALTIC_catholic_opposition_idea
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+
+########################
+#### SOVIET SUPPORT ####
+########################
+#########################
+#### INDEPENDENT SSR ####
+#########################
+#################################
+#### GENERAL COMMUNIST STUFF ####
+#################################

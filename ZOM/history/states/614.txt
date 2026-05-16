@@ -1,0 +1,57 @@
+state = {
+	id = 614
+	name = "STATE_614"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = AVI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = AVI
+	}
+	provinces = {
+		18752
+		18753
+		18754
+		18755
+		18756
+		18757
+		18758
+		18759
+		18760
+		18761
+		18762
+		18763
+		18764
+		18765
+		18766
+		18767
+		18768
+		18769
+		18770
+		18771
+		18772
+		18773
+		18774
+		18775
+		18776
+		18777
+		18778
+		18779
+		18780
+		18781
+		18782
+	}
+	local_supplies = 0
+}

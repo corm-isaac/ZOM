@@ -1,0 +1,76 @@
+state = {
+	id = 493
+	name = "STATE_493"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = IMP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = IMP
+	}
+	provinces = {
+		10739
+		10745
+		14960
+		14961
+		14962
+		14963
+		14964
+		14965
+		14966
+		14967
+		14968
+		14969
+		14970
+		14971
+		14972
+		14973
+		14974
+		14975
+		14976
+		14977
+		14978
+		14979
+		14980
+		14981
+		14982
+		14983
+		14984
+		14985
+		14986
+		14987
+		14988
+		14989
+		14990
+		14991
+		14992
+		14993
+		14994
+		14995
+		14996
+		14997
+		14998
+		14999
+		15000
+		15001
+		15002
+		15003
+		15004
+		15005
+		15006
+		15007
+	}
+	local_supplies = 0
+}

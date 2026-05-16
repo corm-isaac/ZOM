@@ -1,0 +1,65 @@
+state = {
+	id = 23
+	name = "STATE_23"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = GOT
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = GOT
+	}
+	provinces = {
+		605
+		606
+		607
+		608
+		609
+		610
+		611
+		612
+		613
+		614
+		615
+		616
+		617
+		618
+		619
+		620
+		621
+		622
+		623
+		624
+		625
+		626
+		627
+		628
+		629
+		630
+		631
+		632
+		633
+		634
+		635
+		636
+		637
+		638
+		639
+		640
+		641
+		642
+		643
+	}
+	local_supplies = 0
+}

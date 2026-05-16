@@ -1,0 +1,50 @@
+state = {
+	id = 459
+	name = "STATE_459"
+	manpower = 1000
+	state_category = town
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+	}
+	provinces = {
+		14003
+		14004
+		14005
+		14006
+		14007
+		14008
+		14009
+		14010
+		14011
+		14012
+		14013
+		14014
+		14015
+		14016
+		14017
+		14018
+		14019
+		14020
+		14021
+		14022
+		14023
+		14024
+		14025
+		14026
+	}
+	local_supplies = 0
+}

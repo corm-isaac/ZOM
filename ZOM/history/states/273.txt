@@ -1,0 +1,40 @@
+state = {
+	id = 273
+	name = "STATE_273"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = KOV
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = KOV
+	}
+	provinces = {
+		8898
+		8899
+		8900
+		8901
+		8902
+		8903
+		8904
+		8905
+		8906
+		8907
+		8908
+		8909
+		8910
+		8911
+	}
+	local_supplies = 0
+}

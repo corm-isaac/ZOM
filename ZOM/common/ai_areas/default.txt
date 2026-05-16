@@ -1,0 +1,77 @@
+areas = {
+	# Generated continents
+		thayahr = {
+		continents = {
+			thayahr
+		}
+	}
+	jabat = {
+		continents = {
+			jabat
+		}
+	}
+	taghzirem = {
+		continents = {
+			taghzirem
+		}
+	}
+	tizia = {
+		continents = {
+			tizia
+		}
+	}
+	sterg = {
+		continents = {
+			sterg
+		}
+	}
+	anarivu = {
+		continents = {
+			anarivu
+		}
+	}
+
+
+	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
+	europe = {
+		continents = {
+			europe
+		}
+	}
+
+	north_america = {
+		continents = {
+			north_america
+		}
+	}
+
+	south_america = {
+		continents = {
+			south_america
+		}
+	}
+
+	africa = {
+		continents = {
+			africa
+		}
+	}
+
+	australia = {
+		continents = {
+			australia
+		}
+	}
+
+	asia = {
+		continents = {
+			asia
+		}
+	}
+
+	middle_east = {
+		continents = {
+			middle_east
+		}
+	}
+}

@@ -1,0 +1,72 @@
+state = {
+	id = 86
+	name = "STATE_86"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = WOR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = WOR
+	}
+	provinces = {
+		2507
+		2508
+		2509
+		2510
+		2511
+		2512
+		2513
+		2514
+		2515
+		2516
+		2517
+		2518
+		2519
+		2520
+		2521
+		2522
+		2523
+		2524
+		2525
+		2526
+		2527
+		2528
+		2529
+		2530
+		2531
+		2532
+		2533
+		2534
+		2535
+		2536
+		2537
+		2538
+		2539
+		2540
+		2541
+		2542
+		2543
+		2544
+		2545
+		2546
+		2547
+		2548
+		2549
+		2550
+		2551
+		2552
+	}
+	local_supplies = 0
+}

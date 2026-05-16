@@ -1,0 +1,51 @@
+state = {
+	id = 592
+	name = "STATE_592"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = UIG
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = UIG
+	}
+	provinces = {
+		18050
+		18051
+		18053
+		18054
+		18055
+		18056
+		18057
+		18058
+		18059
+		18061
+		18063
+		18064
+		18067
+		18069
+		18071
+		18072
+		18073
+		18075
+		18076
+		18077
+		18078
+		18079
+		18080
+		18081
+		18083
+	}
+	local_supplies = 0
+}

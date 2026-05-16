@@ -1,0 +1,61 @@
+state = {
+	id = 187
+	name = "STATE_187"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = TAM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = TAM
+	}
+	provinces = {
+		6215
+		6216
+		6217
+		6218
+		6219
+		6220
+		6221
+		6222
+		6223
+		6224
+		6225
+		6226
+		6227
+		6228
+		6229
+		6230
+		6231
+		6232
+		6233
+		6234
+		6235
+		6236
+		6237
+		6238
+		6239
+		6240
+		6241
+		6242
+		6243
+		6244
+		6245
+		6246
+		6247
+		6248
+		6249
+	}
+	local_supplies = 0
+}

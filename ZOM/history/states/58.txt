@@ -1,0 +1,50 @@
+state = {
+	id = 58
+	name = "STATE_58"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = ASK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = ASK
+	}
+	provinces = {
+		1686
+		1687
+		1688
+		1689
+		1690
+		1691
+		1692
+		1693
+		1694
+		1695
+		1696
+		1697
+		1698
+		1699
+		1700
+		1701
+		1702
+		1703
+		1704
+		1705
+		1706
+		1707
+		1708
+		1709
+	}
+	local_supplies = 0
+}

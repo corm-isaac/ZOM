@@ -1,0 +1,42 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = OAM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = OAM
+	}
+	provinces = {
+		1470
+		1471
+		1472
+		1473
+		1474
+		1475
+		1476
+		1477
+		1478
+		1479
+		1480
+		1481
+		1482
+		1483
+		1484
+		1485
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,69 @@
+state = {
+	id = 241
+	name = "STATE_241"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = DRV
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = DRV
+	}
+	provinces = {
+		8024
+		8025
+		8026
+		8027
+		8028
+		8029
+		8030
+		8031
+		8032
+		8033
+		8034
+		8035
+		8036
+		8037
+		8038
+		8039
+		8040
+		8041
+		8042
+		8043
+		8044
+		8045
+		8046
+		8047
+		8048
+		8049
+		8050
+		8051
+		8052
+		8053
+		8054
+		8055
+		8056
+		8057
+		8058
+		8059
+		8060
+		8061
+		8062
+		8063
+		8064
+		8065
+		8066
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,43 @@
+state = {
+	id = 624
+	name = "STATE_624"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = HIM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = HIM
+	}
+	provinces = {
+		19039
+		19040
+		19041
+		19042
+		19043
+		19044
+		19045
+		19046
+		19047
+		19048
+		19049
+		19050
+		19051
+		19052
+		19053
+		19054
+		19055
+	}
+	local_supplies = 0
+}

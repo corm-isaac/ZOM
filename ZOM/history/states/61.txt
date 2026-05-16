@@ -1,0 +1,47 @@
+state = {
+	id = 61
+	name = "STATE_61"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = XIN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = XIN
+	}
+	provinces = {
+		1750
+		1751
+		1752
+		1753
+		1754
+		1755
+		1756
+		1757
+		1758
+		1759
+		1760
+		1761
+		1762
+		1763
+		1764
+		1765
+		1766
+		1767
+		1768
+		1769
+		1770
+	}
+	local_supplies = 0
+}

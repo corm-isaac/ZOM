@@ -1,0 +1,78 @@
+state = {
+	id = 586
+	name = "STATE_586"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 4
+		chromium = 3
+		oil = 4
+		rubber = 0
+		steel = 7
+		tungsten = 3
+	}
+	history = {
+		#owner = HQA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = HQA
+	}
+	provinces = {
+		17805
+		17806
+		17807
+		17808
+		17809
+		17810
+		17811
+		17812
+		17813
+		17814
+		17815
+		17816
+		17817
+		17818
+		17819
+		17820
+		17821
+		17822
+		17823
+		17824
+		17825
+		17826
+		17827
+		17828
+		17829
+		17830
+		17831
+		17832
+		17833
+		17834
+		17835
+		17836
+		17837
+		17838
+		17839
+		17840
+		17841
+		17842
+		17843
+		17844
+		17845
+		17846
+		17847
+		17848
+		17849
+		17850
+		17851
+		17852
+		17853
+		17854
+		17855
+		17856
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,54 @@
+state = {
+	id = 180
+	name = "STATE_180"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = PUA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = PUA
+	}
+	provinces = {
+		5995
+		5996
+		5997
+		5998
+		5999
+		6000
+		6001
+		6002
+		6003
+		6004
+		6005
+		6006
+		6007
+		6008
+		6009
+		6010
+		6011
+		6012
+		6013
+		6014
+		6015
+		6016
+		6017
+		6018
+		6019
+		6020
+		6021
+		6022
+	}
+	local_supplies = 0
+}

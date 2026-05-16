@@ -1,0 +1,356 @@
+﻿#shared_focus = {
+#	id = paraguay_uruguay_shared_focus_tree
+#	#icon = GFX_goal_panzerwaffe
+#
+#	country = {
+#		factor = 0
+#		
+#		#modifier = {
+#		#	add = 10
+#		#	OR = {
+#		#		original_tag = URG
+#		#		original_tag = PAR
+#		#	}
+#		#}
+#	}
+#
+#	x = 0
+#	y = 0
+#	offset = {
+#		x = 26
+#		y = 0
+#		trigger = {
+#			tag = PAR
+#		}
+#	}
+#
+#	#shared_shared_focus =  SMB_army
+#	#shared_shared_focus =  SMB_air_force
+#	#shared_shared_focus =  SMB_navy
+#	default = no
+#
+#	continuous_focus_position = { x = 50 y = 1350 }
+shared_focus = {
+	id = GUAY_rekindle_old_gripes
+	icon = GFX_goal_generic_attack_allies
+	x = 40
+	y = 0
+	offset = {
+		x = -13
+		y = 0
+		trigger = {
+			tag = URG
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = PAR
+		}
+	}
+	#relative_position_id = GUAY_form_ties_with_the_military
+	cost = 10
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			OR = {
+				AND = {
+					original_tag = URG
+					OR = {
+						has_game_rule = {
+							rule = URG_AI_BEHAVIOR
+							option = DEFAULT
+						}
+						has_game_rule = {
+							rule = URG_AI_BEHAVIOR
+							option = HISTORICAL
+						}
+					}
+				}
+				AND = {
+					original_tag = PAR
+					OR = {
+						has_game_rule = {
+							rule = PAR_AI_BEHAVIOR
+							option = DEFAULT
+						}
+						has_game_rule = {
+							rule = PAR_AI_BEHAVIOR
+							option = HISTORICAL
+						}
+					}
+				}
+				AND = {
+					OR = {
+						BRA = {
+							has_war_with_major = no
+						}
+						ARG = {
+							has_war_with_major = no
+						}
+					}
+				}
+			}
+			factor = 0
+		}
+	}
+	prerequisite = {
+	}
+	available = {
+		if = {
+			limit = {
+				original_tag = URG
+			}
+			OR = {
+				NOT = {
+					BRA = {
+						is_in_faction_with = URG
+					}
+				}
+				NOT = {
+					ARG = {
+						is_in_faction_with = URG
+					}
+				}
+			}
+		}
+	}
+	search_filters = {
+		FOCUS_FILTER_ANNEXATION
+	}
+	will_lead_to_war_with = BRA
+	will_lead_to_war_with = ARG
+	completion_reward = {
+		if = {
+			limit = {
+				original_tag = PAR
+			}
+			if = {
+				limit = {
+					BRA = {
+						has_civil_war = yes
+					}
+				}
+				every_country = {
+					limit = {
+						original_tag = BRA
+					}
+					ROOT = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+							generator = {
+								504
+							}
+							# optional 
+						}
+					}
+				}
+			}
+			else = {
+				create_wargoal = {
+					type = annex_everything
+					target = BRA
+					generator = {
+						504
+					}
+					# optional 
+				}
+			}
+			if = {
+				limit = {
+					ARG = {
+						has_civil_war = yes
+					}
+				}
+				every_country = {
+					limit = {
+						original_tag = ARG
+					}
+					ROOT = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+							generator = {
+								957
+							}
+							# optional 
+						}
+					}
+				}
+			}
+			else = {
+				create_wargoal = {
+					type = annex_everything
+					target = ARG
+					generator = {
+						957
+					}
+					# optional 
+				}
+			}
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			custom_effect_tooltip = GUAY_rekindle_old_gripes_ARG_PAR_tt
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			custom_effect_tooltip = GUAY_rekindle_old_gripes_BRA_PAR_tt
+		}
+		else = {
+			if = {
+				limit = {
+					BRA = {
+						has_civil_war = yes
+					}
+				}
+				every_country = {
+					limit = {
+						original_tag = BRA
+					}
+					ROOT = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+							generator = {
+								502
+							}
+							# optional 
+						}
+					}
+				}
+			}
+			else = {
+				create_wargoal = {
+					type = annex_everything
+					target = BRA
+					generator = {
+						502
+					}
+					# optional 
+				}
+			}
+			if = {
+				limit = {
+					ARG = {
+						has_civil_war = yes
+					}
+				}
+				every_country = {
+					limit = {
+						original_tag = ARG
+					}
+					ROOT = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+							generator = {
+								510
+							}
+							# optional 
+						}
+					}
+				}
+			}
+			else = {
+				create_wargoal = {
+					type = annex_everything
+					target = ARG
+					generator = {
+						510
+					}
+					# optional 
+				}
+			}
+			######
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			custom_effect_tooltip = GUAY_rekindle_old_gripes_ARG_URG_tt
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			custom_effect_tooltip = GUAY_rekindle_old_gripes_BRA_URG_tt
+		}
+	}
+}
+
+shared_focus = {
+	id = GUAY_laissez_faire
+	icon = GFX_focus_generic_industry_3
+	x = 5
+	y = 0
+	relative_position_id = GUAY_rekindle_old_gripes
+	#mutually_exclusive = { focus =  GUAY_land_reforms }
+	#prerequisite = { focus =  GUAY_coup_detat }
+	cost = 10
+	ai_will_do = {
+		factor = 30
+		modifier = {
+			original_tag = PAR
+			factor = 0
+		}
+	}
+	offset = {
+		x = 1
+		y = 0
+		trigger = {
+			tag = URG
+		}
+	}
+	available = {
+	}
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	completion_reward = {
+		custom_effect_tooltip = GUAY_laissez_faire_tt
+	}
+}
+
+shared_focus = {
+	id = GUAY_land_reforms
+	icon = GFX_focus_generic_mining_industry
+	x = 4
+	y = 0
+	relative_position_id = GUAY_laissez_faire
+	#prerequisite = { focus =  GUAY_coup_detat }
+	cost = 10
+	ai_will_do = {
+		factor = 30
+		modifier = {
+			original_tag = URG
+			factor = 0
+		}
+	}
+	available = {
+	}
+	#mutually_exclusive = { focus =  GUAY_laissez_faire }
+	search_filters = {
+		FOCUS_FILTER_HISTORICAL
+	}
+	completion_reward = {
+		random_core_state = {
+			limit = {
+				infrastructure < 5
+				is_controlled_by = ROOT
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_core_state = {
+			limit = {
+				infrastructure < 5
+				is_controlled_by = ROOT
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_core_state = {
+			limit = {
+				is_controlled_by = ROOT
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}

@@ -1,0 +1,41 @@
+state = {
+	id = 545
+	name = "STATE_545"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = EGU
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = EGU
+	}
+	provinces = {
+		16596
+		16597
+		16598
+		16599
+		16600
+		16601
+		16602
+		16603
+		16604
+		16605
+		16606
+		16607
+		16608
+		16609
+		16610
+	}
+	local_supplies = 0
+}

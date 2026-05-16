@@ -1,0 +1,89 @@
+﻿l_english:
+#Gen.
+ rule_by_most:0 "Populist"
+ rule_by_most_noun:0 "Rule by Most"
+ rule_by_most_desc:0 "Democratic Regime"
+ rule_by_class:0 "Classist"
+ rule_by_class_noun:0 "Rule by Class"
+ rule_by_class_desc:0 "Authoritarian Regime"
+ rule_by_few:0 "Elitist"
+ rule_by_few_noun:0 "Rule by Few"
+ rule_by_few_desc:0 "Authoritarian Regime"
+ rule_by_one:0 "Supreme Autocrat"
+ rule_by_one_noun:0 "Rule by One"
+ rule_by_one_desc:0 "Totalitarian Regime"
+ rule_by_collective:0 "Collectivist"
+ rule_by_collective_noun:0 "Rule by Collective" 
+ rule_by_collective_desc:0 "Collectivist Regime"
+
+
+
+
+#Rule by Most
+ direct_democracy:0 "Direct Democracy"
+ direct_democracy_desc:0 "rule of majority where the people represent themselves and elect a government and/or leader"
+ representative_democracy:0 "Representative Democracy"
+ representative_democracy_desc:0 "rule of majority where the people elect representatives to implement public policy"
+ theocratic_democracy:0 "Theocratic Democracy"
+ theocratic_democracy_desc:0 "rule of majority elects a government and/or leader which abides certain theocratic rules"
+ council_democracy:0 "rule of majority elects a government and/or leader via a 'council' of elected officals from derived states, and those councils vote for policy or officals"
+ crowned_republic:0 "Crowned Republic"
+ crowned_republic_desc:0 "rule of majority elects a government and/or leader while still having a monarch with limited/no powers"
+ peoples_army:0 "People's Army"
+ peoples_army_desc:0 "rule of majority elects a government and/or leader which abides by certain military standards"
+
+#Rule by Class
+ meritocratic:0 "Meritocratic"
+ meritocratic_desc:0 "rule of class where voting rights have to be earned via societal achievements, military service, education, etc"
+ propertarian:0 "Propertarian"
+ propertarian_desc:0 "rule of class where only landowners or property owners can vote. property requirements vary"
+ ethno_nationalist:0 "Ethno Nationalist"
+ ethno_nationalist_desc:0 "rule of class where voting rights are heavily restricted by ethnicity, cultural and/or national heritage. additionally, policy is heavily nationalistic or ethnically influenced"
+ technocratic:0 "Technocratic"
+ technocratic_desc:0 "rule of class where voting rights are heavily restricted by ethnicity, cultural and/or national heritage. additionally, policy is heavily nationalistic or ethnically influenced"
+ military_stratocracy:0 "Military Stratocracy"
+ military_stratocracy_desc:0 "rule of class where voting rights depends on military status. civilians are entirely ousted"
+ clerical:0 "Clerical"
+ clerical_desc:0 "rule of class where voting rights depends on religious status (i.e only those who believe in a certain religon, subscribe to various relgious beliefs, and/or hold a specific religous job)"
+ ideocracy:0 "Ideocratic"
+ ideocracy_desc:0 "rule of class where voting rights depends on certain ideological beliefs (i.e only those who have membership in a political party can vote)"
+ 
+ #Rule by Few
+ oligarchism:0 "Oligarchy"
+ oligarchism_desc:0 "rule by few where only the extermely wealthy and influential can drive policy, usually leads to the nation being helmed by a small group of elites, with a representative chosen to be the leader."
+ directorate:0 "Directorate"
+ directorate_desc:0 "rule by few where only a council of elite members (generals, corporate executives, regional govenors, etc...) collectively make decisions and appoint a leader within the group."
+ clerical_oligarchy:0 "Clerical Oligarchy"
+ clerical_oligarchy_desc:0 "rule by few where only the most important clerical figures drive policy, usually along religous lines. The leader is often a messiah or spirtual leader, but at least a sizeable amount of power lies within the elites."
+ confederation:0 "Confederation"
+ confederation_desc:0 "rule by few where only strong, influential regional figures have any say. Almost always appears within a confederation of smaller different states with regional heads that are weakly unified by a federal government."
+ intellectuals:0 "Intellectuals"
+ intellectuals_desc:0 "rule by few where only enlightened elites can force any policy change, often defined by the best scientists, engineers, philopshers etc.., and a leader is often appointed by the elites."
+ military_junta:0 "Military Junta"
+ military_junta_desc:0 "rule by few where only very high ranking military officals can affect policy. Often martial law is used to justify this."
+ ideocrats:0 "Ideocrats"
+ ideocrats_desc: "rule by few where only extermely influential, ideologically motivated, can affect policy."
+ secret_society:0 "Secret Society"
+ secret_society_desc:0 "rule by few where the pre-existing government and systems are largely a facade, and a small council truly controls the nation"
+ gerontocracy:0 "Gerontocracy"
+ gerontocracy_desc:0 "rule by few where a council of elders lead based on age, experience (and sometimes competence)."
+ 
+#Rule by One
+ inner_circle:0 "Inner Circle"
+ inner_circle_desc:0 "an inner circle seeks to influence the leader's decisions making, and have varying amounts of power within the government"
+ dictator:0 "Dictator"
+ dictator_desc:0 "this leader has large control of the government, while some control is doled out to regional leaders and states"
+ big_brother:0 "Always Watching..."
+
+#Rule by Collective
+ communal_councils:0 "Communal Councils"
+ communal_councils_desc:0 "rule by collective where regional councils, often determined by trade or output are formed, with varying levels of democratic processes. Each council is federated into broader states, which are then tied to the federal government."
+ primitive_communism:0 "Primitive Communism"
+ primitive_communism_desc:0 "rule by collective where the workers exercise great control of resources and factory output, and organizations are formed to represent the workers at a political level."
+ pragmatic_collectivist:0 "Pragmatic Collectivist"
+ pragmatic_collectivist:0 "rule by collective where communities pool together resources focused on efficent production and distrbution. Representatives from each community form the national government which seeks to protect the collective, above all else."
+ vanguard_socialism: "Vanguard Socialism"
+ vanguard_socialism_desc:0 "rule by collective where party structure is paramount, ideological control is tightly maintained. Resources and goods are heavily nationalized, and many aspects of life are heavily regulated."
+
+
+ 

@@ -1,0 +1,51 @@
+IAX_democratic = {
+	color = {
+		235
+		175
+		90
+	}
+	color_ui = {
+		235
+		175
+		90
+	}
+}
+
+IAX_fascism = {
+	color = {
+		1
+		1
+		1
+	}
+	color_ui = {
+		1
+		1
+		1
+	}
+}
+
+IAX_neutrality = {
+	color = {
+		1
+		1
+		1
+	}
+	color_ui = {
+		1
+		1
+		1
+	}
+}
+
+IAX_communism = {
+	color = {
+		1
+		1
+		1
+	}
+	color_ui = {
+		1
+		1
+		1
+	}
+}

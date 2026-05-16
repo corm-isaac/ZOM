@@ -1,0 +1,57 @@
+state = {
+	id = 447
+	name = "STATE_447"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+	}
+	provinces = {
+		13683
+		13684
+		13685
+		13686
+		13687
+		13688
+		13689
+		13690
+		13691
+		13692
+		13693
+		13694
+		13695
+		13696
+		13697
+		13698
+		13699
+		13700
+		13701
+		13702
+		13703
+		13704
+		13705
+		13706
+		13707
+		13708
+		13709
+		13710
+		13711
+		13712
+		13713
+	}
+	local_supplies = 0
+}

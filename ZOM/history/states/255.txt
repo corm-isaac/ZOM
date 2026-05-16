@@ -1,0 +1,39 @@
+state = {
+	id = 255
+	name = "STATE_255"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = HAK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = HAK
+	}
+	provinces = {
+		8404
+		8405
+		8406
+		8407
+		8408
+		8409
+		8410
+		8411
+		8412
+		8413
+		8414
+		8415
+		8416
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,61 @@
+state = {
+	id = 524
+	name = "STATE_524"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = IMP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = IMP
+	}
+	provinces = {
+		10737
+		10747
+		15961
+		15963
+		15964
+		15965
+		15967
+		15968
+		15969
+		15970
+		15971
+		15972
+		15975
+		15977
+		15980
+		15981
+		15983
+		15985
+		15986
+		15987
+		15988
+		15989
+		15990
+		15991
+		15992
+		15995
+		15996
+		15997
+		15998
+		16000
+		16001
+		16002
+		16003
+		16004
+		16005
+	}
+	local_supplies = 0
+}
