@@ -12,29 +12,41 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		owner = IAX
+		#owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		add_core_of = IAX
+		#add_core_of = IAX
 	}
 	provinces = {
-		13883
-		13885
-		13888
-		13892
-		13893
-		13899
-		13903
-		13904
-		13905
-		13907
-		13909
-		13910
-		13912
-		13913
+		17056
+		17057
+		17058
+		17059
+		17060
+		17061
+		17062
+		17063
+		17064
+		17065
+		17066
+		17067
+		17068
+		17069
+		17070
+		17071
+		17072
+		17073
+		17074
+		17075
+		17076
+		17077
+		17078
+		17079
+		17080
+		17081
 	}
 	local_supplies = 0
 }
