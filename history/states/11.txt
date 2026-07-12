@@ -21,7 +21,15 @@ state = {
 		add_core_of = IAX
 		victory_points = {
 			7443
-			15
+			10
+		}
+		victory_points = {
+			7412
+			5
+		}
+		victory_points = {
+			7424
+			5
 		}
 	}
 	provinces = {

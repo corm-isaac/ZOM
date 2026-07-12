@@ -1,6 +1,14 @@
 ﻿l_english:
  #VICTORY_POINTS_6:0 "Jandagano"
- VICTORY_POINTS_7443:0 "Council Bluffs"
+ VICTORY_POINTS_7412:0 "Pirate Cove"
+ VICTORY_POINTS_7424:0 "Landon's Landing"
+ VICTORY_POINTS_7443:0 "Council Bluffs" 
+
+ VICTORY_POINTS_16079:0 "Muscatine"
+ VICTORY_POINTS_16085:0 "Mad Creek"
+ VICTORY_POINTS_16098:0 "Muscatine Airport"
+ VICTORY_POINTS_16113:0 "Kent-Stein"
+
  VICTORY_POINTS_13799:0 "Des Moines"
  VICTORY_POINTS_14246:0 "Cedar Rapids"
 
