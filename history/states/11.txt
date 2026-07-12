@@ -1,7 +1,7 @@
 state = {
 	id = 11
-	name = "STATE_11"
-	manpower = 1000
+	name = "Council Bluffs"
+	manpower = 62000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -14,7 +14,7 @@ state = {
 	history = {
 		owner = IAX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 0
 		}

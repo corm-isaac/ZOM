@@ -1,8 +1,8 @@
 state = {
 	id = 62
-	name = "STATE_62"
-	manpower = 1000
-	state_category = rural
+	name = "Lake Red Rock"
+	manpower = 0
+	state_category = small_island
 	resources = {
 		aluminium = 0
 		chromium = 0
@@ -12,83 +12,17 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = GOT
+		#owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = GOT
+		#add_core_of = IAX
 	}
 	provinces = {
-		1771
-		1772
-		1773
-		1774
-		1775
-		1776
-		1777
-		1778
-		1779
-		1780
-		1781
-		1782
-		1783
-		1784
-		1785
-		1786
-		1787
-		1788
-		1789
-		1790
-		1791
-		1792
-		1793
-		1794
-		1795
-		1796
-		1797
-		1798
-		1799
-		1800
-		1801
-		1802
-		1803
-		1804
-		1805
-		1806
-		1807
-		1808
-		1809
-		1810
-		1811
-		1812
-		1813
-		1814
-		1815
-		1816
-		1817
-		1818
-		1819
-		1820
-		1821
-		1822
-		1823
-		1824
-		1825
-		1826
-		1827
-		1828
-		1829
-		1830
-		1831
-		1832
-		1833
-		1834
-		1835
-		1836
-		1837
-		1838
+		12928
+		13920
 	}
 	local_supplies = 0
 }

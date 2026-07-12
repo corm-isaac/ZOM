@@ -6,25 +6,41 @@ state = {
 	resources = {
 	}
 	history = {
-		owner = IAX
+		#owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		add_core_of = IAX
+		#add_core_of = IAX
 	}
 	provinces = {
-		11271
-		11272
-		11275
-		11277
-		11279
-		11280
-		11281
-		11283
-		11285
-		11286
+		17545
+		17546
+		17547
+		17548
+		17549
+		17550
+		17551
+		17552
+		17553
+		17554
+		17555
+		17556
+		17557
+		17558
+		17559
+		17560
+		17561
+		17562
+		17563
+		17564
+		17565
+		17566
+		17567
+		17568
+		17569
+		17570
 	}
 	local_supplies = 0
 }
