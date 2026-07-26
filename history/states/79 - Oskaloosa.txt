@@ -1,0 +1,39 @@
+state = {
+	id = 79
+	name = "Oskaloosa"
+	manpower = 11600
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Oskaloosa
+			16014
+			10
+		}
+		victory_points = {
+			# University Park
+			16026
+			5
+		}
+	}
+	provinces = {
+		16014
+		16023
+		16026
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,52 @@
+state = {
+	id = 71
+	name = "Mason City"
+	manpower = 27300
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			11789
+			5
+		}
+		victory_points = {
+			11796
+			10
+		}
+		victory_points = {
+			11799
+			5
+		}
+		victory_points = {
+			11803
+			5
+		}
+		victory_points = {
+			12340
+			5
+		}
+	}
+	provinces = {
+		11784
+		11789
+		11796
+		11799
+		11803
+		12340
+	}
+	local_supplies = 0
+}

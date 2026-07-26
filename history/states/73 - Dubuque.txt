@@ -1,0 +1,94 @@
+state = {
+	id = 73
+	name = "Dubuque"
+	manpower = 60000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			#Solid Waste Agency
+			16777
+			5
+		}
+		victory_points = {
+			#Loras College
+			16780
+			5
+		}
+		victory_points = {
+			#Bergfeld
+			16797
+			5
+		}
+		victory_points = {
+			#Dubuque
+			16816
+			10
+		}
+		victory_points = {
+			#Rockdale
+			17201
+			5
+		}
+		victory_points = {
+			#Center Grove
+			18659
+			5
+		}
+		victory_points = {
+			#Valley View
+			18668
+			5
+		}
+		victory_points = {
+			#University of Dubuque
+			18685
+			5
+		}
+		victory_points = {
+			#North End
+			19413
+			5
+		}
+		victory_points = {
+			#Port of Dubuque
+			19418
+			5
+		}
+		victory_points = {
+			#Eagle Point
+			19423
+			5
+		}
+	}
+	provinces = {
+		16777
+		16780
+		16797
+		16816
+		17201
+		17215
+		18659
+		18668
+		18669
+		18685
+		19413
+		19418
+		19423
+	}
+	local_supplies = 0
+}
