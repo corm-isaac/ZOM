@@ -19,6 +19,9 @@
  VICTORY_POINTS_5668:0 "Le Mars Airport"
  VICTORY_POINTS_5680:0 "Le Mars"
 
+ VICTORY_POINTS_6931:0 "Denison"
+ VICTORY_POINTS_6944:0 "Sunset Village"
+
  VICTORY_POINTS_7412:0 "Pirate Cove"
  VICTORY_POINTS_7424:0 "Landon's Landing"
  VICTORY_POINTS_7443:0 "Council Bluffs"
@@ -83,6 +86,11 @@
 
 
  VICTORY_POINTS_15801:0 "West Burlington"
+
+ VICTORY_POINTS_15854:0 "Mount Pleasant"
+
+ VICTORY_POINTS_15869:0 "Fairfield"
+ VICTORY_POINTS_15872:0 "Fairfield Golf & Country"
 
  VICTORY_POINTS_16014:0 "Oskaloosa"
  VICTORY_POINTS_16026:0 "University Park"
