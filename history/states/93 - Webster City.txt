@@ -1,0 +1,39 @@
+state = {
+	id = 93
+	name = "Webster City"
+	manpower = 7700
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# East Bank
+			12482
+			5
+		}
+		victory_points = {
+			# Webster City
+			12486
+			10
+		}
+	}
+	provinces = {
+		12482
+		12486
+		12502
+	}
+	local_supplies = 0
+}

@@ -19,6 +19,8 @@
  VICTORY_POINTS_5668:0 "Le Mars Airport"
  VICTORY_POINTS_5680:0 "Le Mars"
 
+ VICTORY_POINTS_5273:0 "Sioux Center"
+
  VICTORY_POINTS_6931:0 "Denison"
  VICTORY_POINTS_6944:0 "Sunset Village"
 
@@ -40,6 +42,8 @@
  VICTORY_POINTS_10558:0 "Grinell"
  VICTORY_POINTS_10573:0 "Grinell College"
 
+ VICTORY_POINTS_10757:0 "Clear Lake"
+
  VICTORY_POINTS_10908:0 "Wartburg College"
  VICTORY_POINTS_10916:0 "Waverly"
 
@@ -53,6 +57,9 @@
  VICTORY_POINTS_11799:0 "Lester Milligan"
  VICTORY_POINTS_11803:0 "Northern Iowa Area Community College"
  VICTORY_POINTS_12340:0 "Central Heights"
+
+ VICTORY_POINTS_12482:0 "East Bank"
+ VICTORY_POINTS_12486:0 "Webster City"
 
  VICTORY_POINTS_12612:0 "Iowa Speedway"
  VICTORY_POINTS_12615:0 "Newton"
@@ -73,6 +80,8 @@
  VICTORY_POINTS_14191:0 "Indianola High School"
 
  VICTORY_POINTS_14246:0 "Cedar Rapids"
+
+ VICTORY_POINTS_14866:0 "Perry"
 
  VICTORY_POINTS_15045:0 "Indian Hills Community College"
  VICTORY_POINTS_15131:0 "East Ottumwa"
