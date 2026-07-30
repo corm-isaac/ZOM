@@ -1,7 +1,7 @@
 state = {
-	id = 23
-	name = "STATE_23"
-	manpower = 1000
+	id = 101
+	name = "Atlantic"
+	manpower = 6800
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -19,39 +19,15 @@ state = {
 			industrial_complex = 0
 		}
 		add_core_of = IAX
+		victory_points = {
+			# Atlantic
+			9080
+			10
+		}
 	}
 	provinces = {
-		4277
-		4281
-		4282
-		4285
-		4296
-		4298
-		4300
-		4303
-		4305
-		4306
-		4308
-		8252
-		8259
-		8266
-		8270
-		8276
-		8283
-		8285
-		8286
-		8288
-		8296
-		8300
-		8303
-		8306
-		8308
-		8315
-		8316
-		9084
-		9086
-		9112
-		9115
+		9080
+		9099
 	}
 	local_supplies = 0
 }

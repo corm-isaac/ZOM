@@ -28,6 +28,8 @@
  VICTORY_POINTS_7424:0 "Landon's Landing"
  VICTORY_POINTS_7443:0 "Council Bluffs"
 
+ VICTORY_POINTS_9080:0 "Atlantic"
+
  VICTORY_POINTS_10094:0 "University Village"
  VICTORY_POINTS_10098:0 "Mucky Duck"
  VICTORY_POINTS_10105:0 "Somerset"
@@ -80,6 +82,8 @@
  VICTORY_POINTS_13847:0 "Luther College"
  VICTORY_POINTS_13849:0 "Decorah"
 
+ VICTORY_POINTS_14128:0 "Nevada"
+
  VICTORY_POINTS_14170:0 "Indianola Golf Club"
  VICTORY_POINTS_14183:0 "Indianola"
  VICTORY_POINTS_14191:0 "Indianola High School"
@@ -98,6 +102,9 @@
  VICTORY_POINTS_15134:0 "Ottumwa"
  VICTORY_POINTS_15139:0 "John Deere Ottumwa Works"
  VICTORY_POINTS_15141:0 "Beach Ottumwa"
+
+ VICTORY_POINTS_15304:0 "Southern Washington"
+ VICTORY_POINTS_16042:0 "Washington"
 
  VICTORY_POINTS_15337:0 "Lee County Conservation Center"
  VICTORY_POINTS_15372:0 "Tri-State Rodeo"
