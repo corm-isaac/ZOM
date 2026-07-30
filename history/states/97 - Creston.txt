@@ -1,0 +1,33 @@
+state = {
+	id = 97
+	name = "Creston"
+	manpower = 7500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Creston
+			14749
+			10
+		}
+	}
+	provinces = {
+		14749
+		14778
+	}
+	local_supplies = 0
+}
