@@ -1,7 +1,7 @@
 state = {
-	id = 104
-	name = "STATE_104"
-	manpower = 1000
+	id = 102
+	name = "Orange City"
+	manpower = 6300
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -12,39 +12,22 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = AVI
+		owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = AVI
+		add_core_of = IAX
+		victory_points = {
+			# Orange City
+			6409
+			10
+		}
 	}
 	provinces = {
-		3128
-		3129
-		3130
-		3131
-		3132
-		3133
-		3134
-		3135
-		3136
-		3137
-		3138
-		3139
-		3140
-		3141
-		3142
-		3143
-		3144
-		3145
-		3146
-		3147
-		3148
-		3149
-		3150
-		3151
+		6409
+		6420
 	}
 	local_supplies = 0
 }
