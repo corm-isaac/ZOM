@@ -1,0 +1,32 @@
+state = {
+	id = 106
+	name = "Polk City"
+	manpower = 5500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Polk City
+			10394
+			10
+		}
+	}
+	provinces = {
+		10394
+	}
+	local_supplies = 0
+}
