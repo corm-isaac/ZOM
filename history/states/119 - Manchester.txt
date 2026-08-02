@@ -1,0 +1,33 @@
+state = {
+	id = 119
+	name = "Manchester"
+	manpower = 5000
+	state_category = town
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Manchester
+			11840
+			10
+		}
+	}
+	provinces = {
+		11840
+		13682
+	}
+	local_supplies = 0
+}
