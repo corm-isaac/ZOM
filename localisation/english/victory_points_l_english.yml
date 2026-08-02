@@ -15,13 +15,16 @@
 
  VICTORY_POINTS_4153:0 "Sheldon"
 
+ VICTORY_POINTS_5070:0 "South Cherokee"
+ VICTORY_POINTS_8796:0 "Cherokee"
+
  VICTORY_POINTS_5143:0 "South Spencer"
  VICTORY_POINTS_5154:0 "Spencer"
 
+ VICTORY_POINTS_5273:0 "Sioux Center"
+
  VICTORY_POINTS_5668:0 "Le Mars Airport"
  VICTORY_POINTS_5680:0 "Le Mars"
-
- VICTORY_POINTS_5273:0 "Sioux Center"
 
  VICTORY_POINTS_6369:0 "Spirit Lake"
 
@@ -33,11 +36,13 @@
  VICTORY_POINTS_7051:0 "West Estherville"
  VICTORY_POINTS_7058:0 "Estherville"
 
- VICTORY_POINTS_7529:0 "Clarinda"
-
  VICTORY_POINTS_7412:0 "Pirate Cove"
  VICTORY_POINTS_7424:0 "Landon's Landing"
  VICTORY_POINTS_7443:0 "Council Bluffs"
+
+ VICTORY_POINTS_7529:0 "Clarinda"
+
+ VICTORY_POINTS_7541:0 "Glenwood"
 
  VICTORY_POINTS_7614:0 "Algona"
 
@@ -106,6 +111,9 @@
 
  VICTORY_POINTS_13847:0 "Luther College"
  VICTORY_POINTS_13849:0 "Decorah"
+
+ VICTORY_POINTS_14039:0 "Highland Golf"
+ VICTORY_POINTS_14072:0 "Iowa Falls"
 
  VICTORY_POINTS_14128:0 "Nevada"
 
