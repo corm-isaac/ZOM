@@ -13,6 +13,19 @@
  VICTORY_POINTS_3894:0 "Storm Lake"
  VICTORY_POINTS_3901:0 "Buena Vista University"
 
+ VICTORY_POINTS_4030:0 "Bacon Creek"
+ VICTORY_POINTS_4055:0 "Singing Hills"
+ VICTORY_POINTS_4056:0 "Whispering Creek"
+ VICTORY_POINTS_4935:0 "Sioux City"
+ VICTORY_POINTS_4939:0 "Sergeant Floyd Monument"
+ VICTORY_POINTS_4940:0 "Grandview"
+ VICTORY_POINTS_4954:0 "Briar Cliff University"
+ VICTORY_POINTS_4956:0 " Morning Side University"
+ VICTORY_POINTS_4957:0 "Sioux Gateway Airport"
+ VICTORY_POINTS_4971:0 "Sioux City Country Club"
+ VICTORY_POINTS_5684:0 "Burger Town"
+ VICTORY_POINTS_9568:0 "Sergeant Bluff"
+
  VICTORY_POINTS_4153:0 "Sheldon"
 
  VICTORY_POINTS_5070:0 "South Cherokee"
@@ -110,6 +123,8 @@
  VICTORY_POINTS_12930:0 "Central College"
  VICTORY_POINTS_12932:0 "Pella"
  VICTORY_POINTS_12950:0 "Vermeer"
+
+ VICTORY_POINTS_13729:0 "Chariton DC"
 
  VICTORY_POINTS_13799:0 "Des Moines"
 
