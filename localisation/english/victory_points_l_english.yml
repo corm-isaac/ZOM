@@ -95,6 +95,15 @@
  VICTORY_POINTS_11116:0 "Marshalltown Speedway"
  VICTORY_POINTS_12574:0 "Riverview"
 
+ VICTORY_POINTS_11245:0 "Prairie Lakes"
+ VICTORY_POINTS_11261:0 "University of Northern Iowa"
+ VICTORY_POINTS_12724:0 "Castle Hill"
+ VICTORY_POINTS_12738:0 "Wild Horse Ridge"
+ VICTORY_POINTS_12745:0 "North Cedar"
+ VICTORY_POINTS_12753:0 "Cedar Falls"
+ VICTORY_POINTS_12758:0 "Cedar City"
+
+
  VICTORY_POINTS_11588:0 "Osceola"
 
  VICTORY_POINTS_11789:0 "East Mason City"
@@ -143,6 +152,8 @@
  VICTORY_POINTS_14191:0 "Indianola High School"
 
  VICTORY_POINTS_14246:0 "Cedar Rapids"
+
+ VICTORY_POINTS_14389:0 "Hudson"
 
  VICTORY_POINTS_14622:0 "Knoxville Raceway"
  VICTORY_POINTS_14628:0 "Knoxville"

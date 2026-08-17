@@ -1,0 +1,73 @@
+state = {
+	id = 125
+	name = "Cedar Falls"
+	manpower = 40700
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Prairie Lakes
+			11245
+			5
+		}
+		victory_points = {
+			# University of Northern Iowa
+			11261
+			5
+		}
+		victory_points = {
+			# Castle Hill
+			12724
+			5
+		}
+		victory_points = {
+			# Wild Horse Ridge
+			12738
+			5
+		}
+		victory_points = {
+			# North Cedar
+			12745
+			5
+		}
+		victory_points = {
+			# Cedar Falls
+			12753
+			10
+		}
+		victory_points = {
+			# Cedar City
+			12758
+			5
+		}
+	}
+	provinces = {
+		11239
+		11245
+		11261
+		12724
+		12728
+		12735
+		12736
+		12738
+		12743
+		12745
+		12753
+		12758
+	}
+	local_supplies = 0
+}
