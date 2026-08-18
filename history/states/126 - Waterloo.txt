@@ -1,0 +1,89 @@
+state = {
+	id = 126
+	name = "Factory City"
+	manpower = 67300
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Factory City
+			10044
+			10
+		}
+		victory_points = {
+			# Southern Factory City
+			12716
+			5
+		}
+		victory_points = {
+			# Waterloo Regional Airport
+			12721
+			5
+		}
+		victory_points = {
+			# George Wyth State Park
+			12726
+			5
+		}
+		victory_points = {
+			# NW Factory City
+			12737
+			5
+		}
+		victory_points = {
+			# North Factory City
+			12752
+			5
+		}
+		victory_points = {
+			# Black Hawk County Courthouse
+			12761
+			5
+		}
+		victory_points = {
+			# Evansdale-Elk Run
+			14359
+			5
+		}
+		victory_points = {
+			# Lost Island
+			14381
+			5
+		}
+		victory_points = {
+			# SW Factory City
+			14416
+			5
+		}
+	}
+	provinces = {
+		10038
+		10044
+		12716
+		12721
+		12726
+		12737
+		12747
+		12752
+		12761
+		14359
+		14361
+		14381
+		14416
+	}
+	local_supplies = 0
+}
