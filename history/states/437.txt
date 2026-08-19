@@ -1,0 +1,48 @@
+state = {
+	id = 437
+	name = "STATE_437"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = MES
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = MES
+	}
+	provinces = {
+		3926
+		3927
+		3928
+		3929
+		3930
+		3931
+		3932
+		3933
+		3934
+		3935
+		3936
+		3937
+		3938
+		3939
+		3940
+		3941
+		3942
+		3943
+		3944
+		3945
+		3946
+		3947
+	}
+	local_supplies = 0
+}
