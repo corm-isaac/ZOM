@@ -1,0 +1,109 @@
+state = {
+	id = 129
+	name = "Davenport"
+	manpower = 100000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# MercyOne Genesis
+			2616
+			5
+		}
+		victory_points = {
+			# Prairie Heights
+			16097
+			5
+		}
+		victory_points = {
+			# Oakdale Memorial
+			16287
+			5
+		}
+		victory_points = {
+			# Dead City
+			17684
+			5
+		}
+		victory_points = {
+			# Nahant
+			18060
+			5
+		}
+		victory_points = {
+			# Buffalo
+			18062
+			5
+		}
+		victory_points = {
+			# West Davenport
+			18065
+			5
+		}
+		victory_points = {
+			# Davenport
+			18066
+			10
+		}
+		victory_points = {
+			# Hamburg Historical District
+			18068
+			5
+		}
+		victory_points = {
+			# NorthPark
+			18074
+			5
+		}
+		victory_points = {
+			# Village of East Davenport
+			18082
+			5
+		}
+		victory_points = {
+			# Davenport Municipal Airport
+			18527
+			5
+		}
+		victory_points = {
+			# St. Ambrose University
+			18539
+			5
+		}
+	}
+	provinces = {
+		2616
+		3214
+		16097
+		16287
+		17684
+		18023
+		18060
+		18062
+		18065
+		18066
+		18068
+		18070
+		18074
+		18082
+		18162
+		18527
+		18539
+		18558
+	}
+	local_supplies = 0
+}
