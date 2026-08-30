@@ -74,6 +74,7 @@
  VICTORY_POINTS_11001:0 "Grant Wood Rest Stop"
  VICTORY_POINTS_11091:0 "Eastern Iowa Airport"
  VICTORY_POINTS_11097:0 "Hawkeye Downs"
+ VICTORY_POINTS_12137:0 "Fairfax"
  VICTORY_POINTS_12166:0 "National Czech & Slovak Museum"
  VICTORY_POINTS_12363:0 "Antioch Church"
  VICTORY_POINTS_12406:0 "Quaker Oats"
@@ -112,6 +113,8 @@
 
  VICTORY_POINTS_10165:0 "Independence"
 
+ VICTORY_POINTS_10254:0 "Palo"
+
  VICTORY_POINTS_10264:0 "Vinton"
 
  VICTORY_POINTS_10394:0 "Polk City"
@@ -138,7 +141,6 @@
  VICTORY_POINTS_12745:0 "North Cedar"
  VICTORY_POINTS_12753:0 "Cedar Falls"
  VICTORY_POINTS_12758:0 "Cedar City"
-
 
  VICTORY_POINTS_11588:0 "Osceola"
 
@@ -173,6 +175,10 @@
  VICTORY_POINTS_12930:0 "Central College"
  VICTORY_POINTS_12932:0 "Pella"
  VICTORY_POINTS_12950:0 "Vermeer"
+
+ VICTORY_POINTS_12967:0 "Meskwaki Bingo Casino Hotel"
+
+ VICTORY_POINTS_13091:0 "Tama-Toledo"
 
  VICTORY_POINTS_13729:0 "Chariton DC"
 
