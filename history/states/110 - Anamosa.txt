@@ -21,12 +21,12 @@ state = {
 		add_core_of = IAX
 		victory_points = {
 			# Anamosa
-			12363
+			16394
 			10
 		}
 	}
 	provinces = {
-		12363
+		16394
 	}
 	local_supplies = 0
 }
