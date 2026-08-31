@@ -89,6 +89,12 @@
  VICTORY_POINTS_14265:0 "Cedar Hills"
  VICTORY_POINTS_15750:0 "Northwest Area"
 
+ VICTORY_POINTS_9944:0 "Western Hills"
+ VICTORY_POINTS_15530:0 "Clear Creek"
+ VICTORY_POINTS_15742:0 "Oakdale"
+ VICTORY_POINTS_15751:0 "Coralville"
+ VICTORY_POINTS_15752:0 "Coralridge Mall"
+
  VICTORY_POINTS_10044:0 "Factory City"
  VICTORY_POINTS_12716:0 "Southern Factory City"
  VICTORY_POINTS_12721:0 "Waterloo Regional Airport"
@@ -128,6 +134,23 @@
 
  VICTORY_POINTS_10908:0 "Wartburg College"
  VICTORY_POINTS_10916:0 "Waverly"
+
+ VICTORY_POINTS_11087:0 "Coralville Reservoir"
+ VICTORY_POINTS_11094:0 "North Liberty"
+ VICTORY_POINTS_15717:0 "Centennial Park"
+
+ VICTORY_POINTS_11099:0 "Little Venice"
+ VICTORY_POINTS_12685:0 "Old Capitol"
+ VICTORY_POINTS_15505:0 "Hooverville"
+ VICTORY_POINTS_15722:0 "University Heights"
+ VICTORY_POINTS_15723:0 "Iowa City Municipal Airport"
+ VICTORY_POINTS_15727:0 "Hickory Hill"
+ VICTORY_POINTS_15738:0 "Iowa City Waterworks"
+ VICTORY_POINTS_15747:0 "Iowa City"
+ VICTORY_POINTS_15748:0 "Johnson County Fairgrounds"
+ VICTORY_POINTS_15759:0 "Lemme"
+ VICTORY_POINTS_16055:0 "University of Iowa"
+ VICTORY_POINTS_16065:0 "West Iowa City"
 
  VICTORY_POINTS_11103:0 "Elmwood"
  VICTORY_POINTS_11115:0 "Marshalltown"
@@ -226,6 +249,7 @@
  VICTORY_POINTS_15372:0 "Tri-State Rodeo"
  VICTORY_POINTS_15381:0 "Fort Madison"
 
+ VICTORY_POINTS_15733:0 "Tiffin"
 
  VICTORY_POINTS_15801:0 "West Burlington"
 
