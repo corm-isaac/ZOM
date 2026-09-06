@@ -1,0 +1,101 @@
+state = {
+	id = 144
+	name = "Eastern Des Moines"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Capitol East
+			9861
+			5
+		}
+		victory_points = {
+			# Rising Sun
+			9865
+			5
+		}
+		victory_points = {
+			# Capitol Heights
+			13793
+			5
+		}
+		victory_points = {
+			# Martin Luther King Jr. Park
+			13799
+			5
+		}
+		victory_points = {
+			# Pleasant Hill
+			13800
+			5
+		}
+		victory_points = {
+			# Marquisville-Swanwood
+			13804
+			5
+		}
+		victory_points = {
+			# Grandview Park
+			13807
+			5
+		}
+		victory_points = {
+			# Norwoodville
+			13809
+			5
+		}
+		victory_points = {
+			# Des Moines
+			13810
+			50
+		}
+		victory_points = {
+			# Grand View University
+			13811
+			5
+		}
+		victory_points = {
+			# Laurel Hill
+			13814
+			5
+		}
+		victory_points = {
+			# Highland Park
+			13817
+			5
+		}
+	}
+	provinces = {
+		9861
+		9865
+		12331
+		13793
+		13799
+		13798
+		13800
+		13804
+		13807
+		13809
+		13810
+		13811
+		13814
+		13815
+		13817
+	}
+	local_supplies = 0
+}

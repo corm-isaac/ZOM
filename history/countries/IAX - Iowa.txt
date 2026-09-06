@@ -1,4 +1,4 @@
-capital = 38
+capital = 144
 oob = "IAX_1936"
 if = {
 	limit = {

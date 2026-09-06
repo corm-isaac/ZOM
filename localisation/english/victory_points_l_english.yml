@@ -63,6 +63,23 @@
 
  VICTORY_POINTS_9080:0 "Atlantic"
 
+ VICTORY_POINTS_9861:0 "Capitol East"
+ VICTORY_POINTS_9865:0 "Rising Sun"
+ VICTORY_POINTS_13793:0 "Capitol Heights"
+ VICTORY_POINTS_13799:0 "Martin Luther King Jr. Park"
+ VICTORY_POINTS_13800:0 "Pleasant Hill"
+ VICTORY_POINTS_13804:0 "Marquisville-Swanwood"
+ VICTORY_POINTS_13807:0 "Grandview Park"
+ VICTORY_POINTS_13809:0 "Norwoodville"
+ VICTORY_POINTS_13810:0 "Des Moines"
+ VICTORY_POINTS_13811:0 "Grand View University"
+ VICTORY_POINTS_13814:0 "Laurel Hill"
+ VICTORY_POINTS_13817:0 "Highland Park"
+
+ VICTORY_POINTS_9875:0 "Adventureland Campground"
+ VICTORY_POINTS_13148:0 "Altoona"
+ VICTORY_POINTS_13802:0 "Central Altoona"
+
  VICTORY_POINTS_9934:0 "Noelridge"
  VICTORY_POINTS_9937:0 "Kirkwood Community College"
  VICTORY_POINTS_9938:0 "Indian Creek Nature Valley Center"
@@ -123,6 +140,17 @@
 
  VICTORY_POINTS_10264:0 "Vinton"
 
+ VICTORY_POINTS_10388:0 "Prairie Flower Camp"
+ VICTORY_POINTS_13801:0 "Iowa Aviation Museum"
+ VICTORY_POINTS_14448:0 "Woodland Hills"
+ VICTORY_POINTS_14450:0 "Ankeny"
+ VICTORY_POINTS_14452:0 "DMACC Ankeny"
+ VICTORY_POINTS_14453:0 "Keystone Church"
+ VICTORY_POINTS_14454:0 "Saylorville Dam"
+ VICTORY_POINTS_14456:0 "Prairie Ridge"
+ VICTORY_POINTS_14457:0 "East Ankeny"
+
+
  VICTORY_POINTS_10394:0 "Polk City"
 
  VICTORY_POINTS_10481:0 "Winterset"
@@ -182,6 +210,8 @@
  VICTORY_POINTS_12482:0 "East Bank"
  VICTORY_POINTS_12486:0 "Webster City"
 
+ VICTORY_POINTS_12542:0 "Bondurant"
+
  VICTORY_POINTS_12612:0 "Iowa Speedway"
  VICTORY_POINTS_12615:0 "Newton"
  VICTORY_POINTS_12623:0 "Lamb's Grove"
@@ -204,8 +234,6 @@
  VICTORY_POINTS_13091:0 "Tama-Toledo"
 
  VICTORY_POINTS_13729:0 "Chariton DC"
-
- VICTORY_POINTS_13799:0 "Des Moines"
 
  VICTORY_POINTS_13842:0 "Centerville"
 
