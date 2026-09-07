@@ -1,0 +1,39 @@
+state = {
+	id = 80
+	name = "Spencer"
+	manpower = 11300
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# South Spencer
+			5143
+			5
+		}
+		victory_points = {
+			# Spencer
+			5154
+			10
+		}
+	}
+	provinces = {
+		5143
+		5150
+		5154
+	}
+	local_supplies = 0
+}

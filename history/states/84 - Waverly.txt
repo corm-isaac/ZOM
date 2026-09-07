@@ -1,0 +1,39 @@
+state = {
+	id = 84
+	name = "Waverly"
+	manpower = 10400
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Wartburg College
+			10908
+			5
+		}
+		victory_points = {
+			# Waverly
+			10916
+			10
+		}
+	}
+	provinces = {
+		10908
+		10916
+		10917
+	}
+	local_supplies = 0
+}
