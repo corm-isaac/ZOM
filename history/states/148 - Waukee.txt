@@ -1,0 +1,50 @@
+state = {
+	id = 148
+	name = "Waukee"
+	manpower = 35000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Sugar Creek
+			13868
+			5
+		}
+		victory_points = {
+			# Waukee
+			14845
+			10
+		}
+		victory_points = {
+			# North Waukee
+			14848
+			5
+		}
+		victory_points = {
+			# Timberline
+			14853
+			5
+		}
+	}
+	provinces = {
+		13868
+		14845
+		14848
+		14853
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,58 @@
+state = {
+	id = 146
+	name = "Grimes"
+	manpower = 15300
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Lew Clarkson Park
+			11496
+			5
+		}
+		victory_points = {
+			# South Grimes
+			13159
+			5
+		}
+		victory_points = {
+			# Crosshaven
+			14838
+			5
+		}
+		victory_points = {
+			# Govenor's District
+			14851
+			5
+		}
+		victory_points = {
+			# Grimes
+			14855
+			10
+		}
+	}
+	provinces = {
+		11496
+		13159
+		14838
+		14843
+		14850
+		14851
+		14855
+	}
+	local_supplies = 0
+}

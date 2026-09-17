@@ -1,0 +1,108 @@
+state = {
+	id = 151
+	name = "Southern Des Moines"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Cumming DC
+			10477
+			5
+		}
+		victory_points = {
+			# Des Moines International Airport
+			11482
+			5
+		}
+		victory_points = {
+			# Fort Des Moines
+			11491
+			5
+		}
+		victory_points = {
+			# Greater South Side
+			11493
+			5
+		}
+		victory_points = {
+			# Purple Martin
+			11500
+			5
+		}
+		victory_points = {
+			# River Oak Ranch
+			12543
+			5
+		}
+		victory_points = {
+			# Evergreen
+			13147
+			5
+		}
+		victory_points = {
+			# Deer Ridge
+			13498
+			5
+		}
+		victory_points = {
+			# Easter Lake
+			13794
+			5
+		}
+		victory_points = {
+			# Southern Des Moines
+			13813
+			10
+		}
+		victory_points = {
+			# Maffitt Lake
+			14025
+			5
+		}
+		victory_points = {
+			# Southwestern Hills
+			14157
+			5
+		}
+		victory_points = {
+			# Magnolia Park
+			14190
+			5
+		}
+	}
+	provinces = {
+		9867
+		10477
+		11479
+		11482
+		11491
+		11493
+		11499
+		11500
+		12543
+		13147
+		13498
+		13794
+		13813
+		14025
+		14157
+		14188
+		14190
+	}
+	local_supplies = 0
+}

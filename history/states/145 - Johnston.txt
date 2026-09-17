@@ -1,0 +1,56 @@
+state = {
+	id = 145
+	name = "Johnston"
+	manpower = 24000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Herrold
+			10382
+			5
+		}
+		victory_points = {
+			# Camp Dodge
+			10387
+			5
+		}
+		victory_points = {
+			# Johnston
+			10390
+			10
+		}
+		victory_points = {
+			# East Johnston
+			10403
+			5
+		}
+		victory_points = {
+			# Terra Park
+			11488
+			5
+		}
+	}
+	provinces = {
+		10382
+		10387
+		10390
+		10403
+		11488
+	}
+	local_supplies = 0
+}

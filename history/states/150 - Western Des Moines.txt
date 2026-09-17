@@ -1,0 +1,149 @@
+state = {
+	id = 150
+	name = "Western Des Moines"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Valley Junction
+			10389
+			5
+		}
+		victory_points = {
+			# Valley View
+			10698
+			5
+		}
+		victory_points = {
+			# Mondamin Presidential
+			10701
+			5
+		}
+		victory_points = {
+			# Downtown Des Moines
+			11304
+			10
+		}
+		victory_points = {
+			# Sherman Hill
+			11480
+			5
+		}
+		victory_points = {
+			# Beaverdale
+			11486
+			5
+		}
+		victory_points = {
+			# West Des Moines City Hall
+			11487
+			5
+		}
+		victory_points = {
+			# Waterbury
+			11489
+			5
+		}
+		victory_points = {
+			# Glen Oaks
+			11495
+			5
+		}
+		victory_points = {
+			# Lower Beaver
+			11502
+			5
+		}
+		victory_points = {
+			# Jordan Creek Mall
+			11636
+			5
+		}
+		victory_points = {
+			# Racoon River Park
+			11874
+			5
+		}
+		victory_points = {
+			# Valley
+			12859
+			5
+		}
+		victory_points = {
+			# MercyOne Medical Center
+			13161
+			5
+		}
+		victory_points = {
+			# River Bend
+			13164
+			5
+		}
+		victory_points = {
+			# Windsor Heights
+			13877
+			5
+		}
+		victory_points = {
+			# Waveland
+			14004
+			5
+		}
+		victory_points = {
+			# Booneville
+			14011
+			5
+		}
+		victory_points = {
+			# Salisbury
+			14018
+			5
+		}
+		victory_points = {
+			# Drake University
+			14854
+			5
+		}
+	}
+	provinces = {
+		10126
+		10389
+		10391
+		10698
+		10701
+		11304
+		11480
+		11486
+		11487
+		11489
+		11490
+		11495
+		11502
+		11636
+		11874
+		12859
+		13161
+		13164
+		13877
+		14004
+		14011
+		14018
+		14854
+	}
+	local_supplies = 0
+}
