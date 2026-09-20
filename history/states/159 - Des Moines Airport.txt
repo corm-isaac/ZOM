@@ -1,7 +1,7 @@
 state = {
-	id = 156
-	name = "STATE_156"
-	manpower = 1000
+	id = 159
+	name = "Des Moines Airport"
+	manpower = 18000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -12,32 +12,27 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = IAX
+		owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = IAX
+		add_core_of = IAX
+		victory_points = {
+			# Southwestern Hills
+			14157
+			5
+		}
+		victory_points = {
+			# Des Moines International Airport
+			11482
+			10
+		}
 	}
 	provinces = {
-		17914
-		17915
-		17916
-		17917
-		17918
-		17919
-		17920
-		17921
-		17922
-		17923
-		17924
-		17925
-		17926
-		17927
-		17928
-		17929
-		17930
+		11482
+		14157
 	}
 	local_supplies = 0
 }

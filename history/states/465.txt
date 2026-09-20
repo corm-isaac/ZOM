@@ -1,6 +1,6 @@
 state = {
-	id = 158
-	name = "STATE_158"
+	id = 465
+	name = "STATE_465"
 	manpower = 1000
 	state_category = rural
 	resources = {
@@ -12,45 +12,43 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = KOV
+		#owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = KOV
+		#add_core_of = IAX
 	}
 	provinces = {
-		5164
-		5165
-		5166
-		5167
-		5168
-		5169
-		5170
-		5171
-		5172
-		5173
-		5174
-		5175
-		5176
-		5177
-		5178
-		5179
-		5180
-		5181
-		5182
-		5183
-		5184
-		5185
-		5186
-		5187
-		5188
-		5189
-		5190
-		5191
-		5192
-		5193
+		18946
+		18947
+		18948
+		18949
+		18950
+		18951
+		18952
+		18953
+		18954
+		18955
+		18956
+		18957
+		18958
+		18959
+		18960
+		18961
+		18962
+		18963
+		18964
+		18965
+		18966
+		18967
+		18968
+		18969
+		18970
+		18971
+		18972
+		18973
 	}
 	local_supplies = 0
 }

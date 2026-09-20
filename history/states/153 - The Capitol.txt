@@ -1,6 +1,6 @@
 state = {
-	id = 162
-	name = "STATE_162"
+	id = 153
+	name = "The Capitol"
 	manpower = 1000
 	state_category = rural
 	resources = {
@@ -12,43 +12,21 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = KOV
+		owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = KOV
+		add_core_of = IAX
+		victory_points = {
+			# Des Moines
+			13810
+			50
+		}
 	}
 	provinces = {
-		5334
-		5335
-		5336
-		5337
-		5338
-		5339
-		5340
-		5341
-		5342
-		5343
-		5344
-		5345
-		5346
-		5347
-		5348
-		5349
-		5350
-		5351
-		5352
-		5353
-		5354
-		5355
-		5356
-		5357
-		5358
-		5359
-		5360
-		5361
+		13810
 	}
 	local_supplies = 0
 }

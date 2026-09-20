@@ -1,7 +1,7 @@
 state = {
-	id = 161
-	name = "STATE_161"
-	manpower = 1000
+	id = 146
+	name = "UP Rail Yard"
+	manpower = 18000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -12,36 +12,27 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		#owner = IAX
+		owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		#add_core_of = IAX
+		add_core_of = IAX
+		victory_points = {
+			# Union Pacific Railway
+			9861
+			10
+		}
+		victory_points = {
+			# Grandview Park
+			13807
+			5
+		}
 	}
 	provinces = {
-		19056
-		19057
-		19058
-		19059
-		19060
-		19061
-		19062
-		19063
-		19064
-		19065
-		19066
-		19067
-		19068
-		19069
-		19070
-		19071
-		19072
-		19073
-		19074
-		19075
-		19076
+		9861
+		13807
 	}
 	local_supplies = 0
 }

@@ -1,7 +1,7 @@
 state = {
-	id = 148
-	name = "Waukee"
-	manpower = 35000
+	id = 162
+	name = "Downtown"
+	manpower = 18000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,31 +20,37 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Sugar Creek
-			13868
+			# Mondamin Presidential
+			10701
 			5
 		}
 		victory_points = {
-			# Waukee
-			14845
+			# Downtown Des Moines
+			11304
 			10
 		}
 		victory_points = {
-			# North Waukee
-			14848
+			# Sherman Hill
+			11480
 			5
 		}
 		victory_points = {
-			# Timberline
-			14853
+			# MercyOne Medical Center
+			13161
+			5
+		}
+		victory_points = {
+			# River Bend
+			13164
 			5
 		}
 	}
 	provinces = {
-		13868
-		14845
-		14848
-		14853
+		10701
+		11304
+		11480
+		13161
+		13164
 	}
 	local_supplies = 0
 }

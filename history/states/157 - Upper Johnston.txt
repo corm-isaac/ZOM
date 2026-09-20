@@ -1,7 +1,7 @@
 state = {
-	id = 147
-	name = "Urbandale"
-	manpower = 45600
+	id = 157
+	name = "Upper Johnston"
+	manpower = 24000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,37 +20,31 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Urbandale
-			11492
+			# Herrold
+			10382
+			5
+		}
+		victory_points = {
+			# Camp Dodge
+			10387
+			5
+		}
+		victory_points = {
+			# Johnston
+			10390
 			10
 		}
 		victory_points = {
-			# Central Urbandale
-			11494
-			5
-		}
-		victory_points = {
-			# North Urbandale
-			11497
-			5
-		}
-		victory_points = {
-			# Walnut Creek
-			14836
-			5
-		}
-		victory_points = {
-			# Merle Hay Mall
-			14846
+			# East Johnston
+			10403
 			5
 		}
 	}
 	provinces = {
-		11492
-		11494
-		11497
-		14836
-		14846
+		10382
+		10387
+		10390
+		10403
 	}
 	local_supplies = 0
 }

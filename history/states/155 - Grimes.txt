@@ -1,7 +1,7 @@
 state = {
-	id = 149
-	name = "Clive"
-	manpower = 18600
+	id = 155
+	name = "Grimes"
+	manpower = 15300
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,19 +20,39 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Clive
-			11484
-			10
+			# Lew Clarkson Park
+			11496
+			5
 		}
 		victory_points = {
-			# Clive Lake
-			11485
+			# South Grimes
+			13159
 			5
+		}
+		victory_points = {
+			# Crosshaven
+			14838
+			5
+		}
+		victory_points = {
+			# Govenor's District
+			14851
+			5
+		}
+		victory_points = {
+			# Grimes
+			14855
+			10
 		}
 	}
 	provinces = {
-		11484
-		11485
+		11496
+		13159
+		14838
+		14843
+		14850
+		14851
+		14855
 	}
 	local_supplies = 0
 }
