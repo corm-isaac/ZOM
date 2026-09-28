@@ -1,7 +1,7 @@
 state = {
-	id = 154
-	name = "Urbandale"
-	manpower = 45600
+	id = 164
+	name = "West Des Moines"
+	manpower = 34400
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,37 +20,32 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Urbandale
-			11492
+			# Valley Junction
+			10389
+			5
+		}
+		victory_points = {
+			# West Des Moines City Hall
+			11487
 			10
 		}
 		victory_points = {
-			# Central Urbandale
-			11494
+			# Racoon River Park
+			11874
 			5
 		}
 		victory_points = {
-			# North Urbandale
-			11497
-			5
-		}
-		victory_points = {
-			# Walnut Creek
-			14836
-			5
-		}
-		victory_points = {
-			# Merle Hay Mall
-			14846
+			# Valley
+			12859
 			5
 		}
 	}
 	provinces = {
-		11492
-		11494
-		11497
-		14836
-		14846
+		10126
+		10389
+		11487
+		11874
+		12859
 	}
 	local_supplies = 0
 }

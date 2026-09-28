@@ -1,7 +1,7 @@
 state = {
-	id = 153
-	name = "The Capitol"
-	manpower = 1000
+	id = 154
+	name = "Des Moines Water"
+	manpower = 18000
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,13 +20,33 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Des Moines
-			13810
-			50
+			# Cumming DC
+			10477
+			5
+		}
+		victory_points = {
+			# Purple Martin
+			11500
+			5
+		}
+		victory_points = {
+			# Deer Ridge
+			13498
+			10
+		}
+		victory_points = {
+			# Maffitt Lake
+			14025
+			5
 		}
 	}
 	provinces = {
-		13810
+		10477
+		11479
+		11500
+		13498
+		14025
+		14188
 	}
 	local_supplies = 0
 }

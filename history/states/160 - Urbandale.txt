@@ -1,7 +1,7 @@
 state = {
-	id = 150
-	name = "Western Des Moines"
-	manpower = 68700
+	id = 160
+	name = "Urbandale"
+	manpower = 45600
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -20,57 +20,37 @@ state = {
 		}
 		add_core_of = IAX
 		victory_points = {
-			# Valley Junction
-			10389
-			5
-		}
-		victory_points = {
-			# Valley View
-			10698
-			5
-		}
-		victory_points = {
-			# West Des Moines City Hall
-			11487
+			# Urbandale
+			11492
 			10
 		}
 		victory_points = {
-			# Glen Oaks
-			11495
+			# Central Urbandale
+			11494
 			5
 		}
 		victory_points = {
-			# Jordan Creek Mall
-			11636
+			# North Urbandale
+			11497
 			5
 		}
 		victory_points = {
-			# Racoon River Park
-			11874
+			# Walnut Creek
+			14836
 			5
 		}
 		victory_points = {
-			# Valley
-			12859
-			5
-		}
-		victory_points = {
-			# Booneville
-			14011
+			# Merle Hay Mall
+			14846
 			5
 		}
 	}
 	provinces = {
-		10126
-		10389
-		10698
-		11487
-		11490
-		11495
-		11636
-		11874
-		12859
-		14011
+		11492
+		11494
+		11497
+		14836
+		14846
 	}
 	local_supplies = 0
 }
