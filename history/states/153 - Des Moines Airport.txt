@@ -1,0 +1,38 @@
+state = {
+	id = 153
+	name = "Des Moines Airport"
+	manpower = 18000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Southwestern Hills
+			14157
+			5
+		}
+		victory_points = {
+			# Des Moines International Airport
+			11482
+			10
+		}
+	}
+	provinces = {
+		11482
+		14157
+	}
+	local_supplies = 0
+}

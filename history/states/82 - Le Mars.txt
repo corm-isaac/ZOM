@@ -1,0 +1,39 @@
+state = {
+	id = 82
+	name = "Le Mars"
+	manpower = 10500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Le Mars Airport
+			5668
+			10
+		}
+		victory_points = {
+			# d
+			5680
+			10
+		}
+	}
+	provinces = {
+		5648
+		5668
+		5680
+	}
+	local_supplies = 0
+}

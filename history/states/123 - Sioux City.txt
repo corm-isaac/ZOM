@@ -1,0 +1,102 @@
+state = {
+	id = 123
+	name = "Sioux City"
+	manpower = 85800
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Bacon Creek 
+			4030
+			5
+		}
+		victory_points = {
+			# Singing Hills
+			4055
+			10
+		}
+		victory_points = {
+			# Whispering Creek
+			4056
+			5
+		}
+		victory_points = {
+			# Sioux City
+			4935
+			15
+		}
+		victory_points = {
+			# Sergeant Floyd Monument
+			4939
+			10
+		}
+		victory_points = {
+			# Grandview
+			4940
+			5
+		}
+		victory_points = {
+			# Briar Cliff University
+			4954
+			5
+		}
+		victory_points = {
+			# Morning Side University
+			4956
+			5
+		}
+		victory_points = {
+			# Sioux Gateway Airport 
+			4957
+			5
+		}
+		victory_points = {
+			# Sioux City Country Club
+			4971
+			5
+		}
+		victory_points = {
+			# Burger Town
+			5684
+			5
+		}
+		victory_points = {
+			# Sergeant Bluff 
+			9568
+			5
+		}
+	}
+	provinces = {
+		4030
+		4034
+		4050
+		4055
+		4056
+		4070
+		4935
+		4940
+		4939
+		4954
+		4956
+		4957
+		4971
+		4977
+		5684
+		9568
+	}
+	local_supplies = 0
+}

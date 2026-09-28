@@ -1,0 +1,44 @@
+state = {
+	id = 138
+	name = "North Liberty"
+	manpower = 20500
+	state_category = town
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Coralville Reservoir
+			11087
+			5
+		}
+		victory_points = {
+			# North Liberty
+			11094
+			10
+		}
+		victory_points = {
+			# Centennial Park
+			15717
+			5
+		}
+	}
+	provinces = {
+		11087
+		11094
+		15717
+	}
+	local_supplies = 0
+}

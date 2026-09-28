@@ -1,0 +1,45 @@
+state = {
+	id = 148
+	name = "East Des Moines"
+	manpower = 28000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Rising Sun
+			9865
+			5
+		}
+		victory_points = {
+			# Pleasant Hill
+			13800
+			5
+		}
+		victory_points = {
+			# Laurel Hill
+			13814
+			10
+		}
+	}
+	provinces = {
+		9865
+		12331
+		13800
+		13814
+	}
+	local_supplies = 0
+}

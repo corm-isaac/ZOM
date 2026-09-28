@@ -1,0 +1,82 @@
+state = {
+	id = 141
+	name = "Ankeny"
+	manpower = 68000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Prairie Flower
+			10388
+			5
+		}
+		victory_points = {
+			# Iowa Aviation Museum
+			13801
+			5
+		}
+		victory_points = {
+			# Woodland Hills
+			14448
+			5
+		}
+		victory_points = {
+			# Ankeny
+			14450
+			10
+		}
+		victory_points = {
+			# DMACC Ankeny
+			14452
+			5
+		}
+		victory_points = {
+			# Keystone Church
+			14453
+			5
+		}
+		victory_points = {
+			# Saylorville Dam
+			14454
+			5
+		}
+		victory_points = {
+			# Prairie Ridge
+			14456
+			5
+		}
+		victory_points = {
+			# East Ankeny
+			14457
+			5
+		}
+	}
+	provinces = {
+		10388
+		13801
+		13812
+		14448
+		14450
+		14452
+		14453
+		14454
+		14456
+		14457
+		14458
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,56 @@
+state = {
+	id = 163
+	name = "Central Des Moines"
+	manpower = 18000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Waterbury
+			11489
+			5
+		}
+		victory_points = {
+			# Windsor Heights
+			13877
+			5
+		}
+		victory_points = {
+			# Waveland
+			14004
+			5
+		}
+		victory_points = {
+			# Salisbury
+			14018
+			5
+		}
+		victory_points = {
+			# Drake University
+			14854
+			10
+		}
+	}
+	provinces = {
+		11489
+		13877
+		14004
+		14018
+		14854
+	}
+	local_supplies = 0
+}

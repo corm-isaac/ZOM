@@ -1,0 +1,52 @@
+state = {
+	id = 70
+	name = "Ottumwa"
+	manpower = 25500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			15045
+			5
+		}
+		victory_points = {
+			15131
+			5
+		}
+		victory_points = {
+			15134
+			10
+		}
+		victory_points = {
+			15139
+			5
+		}
+		victory_points = {
+			15141
+			5
+		}
+	}
+	provinces = {
+		15045
+		15123
+		15131
+		15134
+		15139
+		15141
+	}
+	local_supplies = 0
+}

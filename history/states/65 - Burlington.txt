@@ -1,0 +1,47 @@
+state = {
+	id = 65
+	name = "Burlington"
+	manpower = 24000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			2838
+			5
+		}
+		victory_points = {
+			2851
+			5
+		}
+		victory_points = {
+			2865
+			5
+		}
+		victory_points = {
+			2886
+			10
+		}
+	}
+	provinces = {
+		2838
+		2843
+		2851
+		2865
+		2886
+	}
+	local_supplies = 0
+}

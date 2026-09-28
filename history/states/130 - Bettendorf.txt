@@ -1,0 +1,94 @@
+state = {
+	id = 130
+	name = "Bettendorf"
+	manpower = 39500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Eagle's Landing
+			16296
+			5
+		}
+		victory_points = {
+			# DaveInn Port
+			16771
+			5
+		}
+		victory_points = {
+			# Bettendorf
+			16769
+			10
+		}
+		victory_points = {
+			# Crow Valley
+			17676
+			5
+		}
+		victory_points = {
+			# Crow Creek
+			18021
+			5
+		}
+		victory_points = {
+			# Riverfront
+			18035
+			5
+		}
+		victory_points = {
+			# Riverdale
+			18045
+			5
+		}
+		victory_points = {
+			# TBK
+			18549
+			5
+		}
+		victory_points = {
+			# Duck Creek
+			19429
+			5
+		}
+		victory_points = {
+			# North Ridge
+			19453
+			5
+		}
+		victory_points = {
+			# Pleasant Valley
+			19456
+			5
+		}
+	}
+	provinces = {
+		16296
+		16769
+		16770
+		16771
+		17676
+		18021
+		18045
+		18535
+		18549
+		19429
+		19452
+		19453
+		19456
+	}
+	local_supplies = 0
+}

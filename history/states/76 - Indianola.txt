@@ -1,0 +1,45 @@
+state = {
+	id = 76
+	name = "Indianola"
+	manpower = 16000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			#Indianola Golf Club
+			14170
+			5
+		}
+		victory_points = {
+			#Indianola
+			14183
+			10
+		}
+		victory_points = {
+			#Indianola High School
+			14191
+			5
+		}
+	}
+	provinces = {
+		14159
+		14170
+		14183
+		14191
+	}
+	local_supplies = 0
+}

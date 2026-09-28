@@ -1,0 +1,46 @@
+state = {
+	id = 378
+	name = "STATE_378"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = IAX
+	}
+	provinces = {
+		1953
+		1954
+		1955
+		1956
+		1957
+		1958
+		1959
+		1960
+		1961
+		1962
+		1963
+		1964
+		1965
+		1966
+		1967
+		1968
+		1969
+		1970
+		1971
+		1972
+	}
+	local_supplies = 0
+}

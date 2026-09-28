@@ -1,0 +1,88 @@
+state = {
+	id = 75
+	name = "Ames"
+	manpower = 66400
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			#University Village
+			10094
+			5
+		}
+		victory_points = {
+			#Mucky Duck
+			10098
+			5
+		}
+		victory_points = {
+			#Somerset
+			10105
+			5
+		}
+		victory_points = {
+			#Ames
+			10116
+			10
+		}
+		victory_points = {
+			#East Ames
+			10122
+			5
+		}
+		victory_points = {
+			#Ontario
+			10123
+			5
+		}
+		victory_points = {
+			#Campus Town
+			10128
+			5
+		}
+		victory_points = {
+			#Iowa State University
+			10380
+			5
+		}
+		victory_points = {
+			#Jack Trice Stadium
+			11314
+			1
+		}
+		victory_points = {
+			#Veenker
+			14142
+			5
+		}
+	}
+	provinces = {
+		10087
+		10090
+		10094
+		10098
+		10105
+		10116
+		10122
+		10123
+		10128
+		10380
+		11314
+		14142
+	}
+	local_supplies = 0
+}

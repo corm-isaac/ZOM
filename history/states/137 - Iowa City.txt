@@ -1,0 +1,100 @@
+state = {
+	id = 137
+	name = "Iowa City"
+	manpower = 74800
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Little Venice
+			11099
+			5
+		}
+		victory_points = {
+			# Old Capitol
+			12685
+			5
+		}
+		victory_points = {
+			# Hooverville
+			15505
+			5
+		}
+		victory_points = {
+			# University Heights
+			15722
+			5
+		}
+		victory_points = {
+			# Iowa City Municipal Airport
+			15723
+			5
+		}
+		victory_points = {
+			# Hickory Hill
+			15727
+			5
+		}
+		victory_points = {
+			# Iowa City Waterworks
+			15738
+			5
+		}
+		victory_points = {
+			# Iowa City
+			15547
+			10
+		}
+		victory_points = {
+			# Johnson County Fairgrounds
+			15748
+			5
+		}
+		victory_points = {
+			# Lemme
+			15759
+			5
+		}
+		victory_points = {
+			# University of Iowa
+			16055
+			5
+		}
+		victory_points = {
+			# West Iowa City
+			16065
+			5
+		}
+	}
+	provinces = {
+		11099
+		12685
+		15505
+		15547
+		15722
+		15723
+		15727
+		15734
+		15738
+		15748
+		15757
+		15759
+		16055
+		16065
+	}
+	local_supplies = 0
+}

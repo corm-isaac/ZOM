@@ -1,0 +1,38 @@
+state = {
+	id = 95
+	name = "Knoxville"
+	manpower = 7600
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Knoxville Raceway
+			14622
+			5
+		}
+		victory_points = {
+			# Knoxville
+			14628
+			10
+		}
+	}
+	provinces = {
+		14622
+		14628
+	}
+	local_supplies = 0
+}

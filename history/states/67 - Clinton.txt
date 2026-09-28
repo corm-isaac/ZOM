@@ -1,0 +1,48 @@
+state = {
+	id = 67
+	name = "Clinton"
+	manpower = 24500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			18227
+			10
+		}
+		victory_points = {
+			18244
+			5
+		}
+		victory_points = {
+			18251
+			5
+		}
+		victory_points = {
+			19428
+			5
+		}
+	}
+	provinces = {
+		18227
+		18244
+		18251
+		18274
+		19428
+		19469
+	}
+	local_supplies = 0
+}

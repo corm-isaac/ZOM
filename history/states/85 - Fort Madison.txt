@@ -1,0 +1,44 @@
+state = {
+	id = 85
+	name = "Fort Madison"
+	manpower = 10200
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Lee County Conservation Center
+			15337
+			5
+		}
+		victory_points = {
+			# Tri-State Rodeo
+			15372
+			5
+		}
+		victory_points = {
+			# Fort Madison
+			15381
+			10
+		}
+	}
+	provinces = {
+		15337
+		15372
+		15381
+	}
+	local_supplies = 0
+}

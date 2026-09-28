@@ -1,0 +1,174 @@
+state = {
+	id = 131
+	name = "Cedar Rapids"
+	manpower = 138000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Noelridge
+			9934
+			5
+		}
+		victory_points = {
+			# Kirkwood Community College
+			9937
+			5
+		}
+		victory_points = {
+			# Indian Creek Nature Valley Center
+			9938
+			5
+		}
+		victory_points = {
+			# Coe College
+			9942
+			5
+		}
+		victory_points = {
+			# Mount Trashmore
+			9943
+			5
+		}
+		victory_points = {
+			# Sixth Street Industrial Sector
+			9947
+			5
+		}
+		victory_points = {
+			# Ellis Park
+			10238
+			5
+		}
+		victory_points = {
+			# Grant Wood Rest Stop
+			11001
+			5
+		}
+		victory_points = {
+			# Eastern Iowa Airport
+			11091
+			5
+		}
+		victory_points = {
+			# Hawkeye Downs
+			11097
+			5
+		}
+		victory_points = {
+			# Fairfax
+			12137
+			5
+		}
+		victory_points = {
+			# National Czech & Slovak Museum
+			12166
+			5
+		}
+		victory_points = {
+			# Antioch Church
+			12363
+			5
+		}
+		victory_points = {
+			# Quaker Oats
+			12406
+			5
+		}
+		victory_points = {
+			# Usher's Ferry
+			12411
+			5
+		}
+		victory_points = {
+			# Cedar Valley
+			12412
+			5
+		}
+		victory_points = {
+			# Mount Mercy University
+			13671
+			5
+		}
+		victory_points = {
+			# Bever Park
+			14242
+			5
+		}
+		victory_points = {
+			# International Paper
+			14244
+			5
+		}
+		victory_points = {
+			# Cedar Rapids
+			14246
+			10
+		}
+		victory_points = {
+			# General Mills
+			14251
+			5
+		}
+		victory_points = {
+			# Covington
+			14262
+			5
+		}
+		victory_points = {
+			# Cedar Hills
+			14265
+			5
+		}
+		victory_points = {
+			# Northwest Area
+			15750
+			5
+		}
+	}
+	provinces = {
+		9934
+		9937
+		9938
+		9942
+		9943
+		9947
+		10283
+		11091
+		11097
+		11101
+		12137
+		12166
+		12363
+		12406
+		12411
+		12412
+		13671
+		14233
+		14242
+		14244
+		14246
+		14251
+		14262
+		14265
+		14267
+		14277
+		15599
+		15750
+	}
+	local_supplies = 0
+}

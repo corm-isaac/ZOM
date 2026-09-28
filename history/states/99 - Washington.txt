@@ -1,0 +1,38 @@
+state = {
+	id = 99
+	name = "Washington"
+	manpower = 7300
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Southern Washington
+			15304
+			10
+		}
+		victory_points = {
+			# Washington
+			16042
+			10
+		}
+	}
+	provinces = {
+		15304
+		16042
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 81
+	name = "Storm Lake"
+	manpower = 11000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Storm Lake
+			3894
+			10
+		}
+		victory_points = {
+			# Buena Vista University
+			3901
+			5
+		}
+	}
+	provinces = {
+		3893
+		3894
+		3901
+	}
+	local_supplies = 0
+}

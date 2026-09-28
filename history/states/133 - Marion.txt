@@ -1,0 +1,51 @@
+state = {
+	id = 133
+	name = "Marion"
+	manpower = 41500
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Marion
+			12395
+			10
+		}
+		victory_points = {
+			# Hunter's Ridge
+			12413
+			5
+		}
+		victory_points = {
+			# Boyson
+			14260
+			5
+		}
+		victory_points = {
+			# Indian Creek
+			14264
+			5
+		}
+	}
+	provinces = {
+		12395
+		12413
+		14260
+		14264
+		18708
+	}
+	local_supplies = 0
+}

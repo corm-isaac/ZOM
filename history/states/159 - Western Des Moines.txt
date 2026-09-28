@@ -1,0 +1,51 @@
+state = {
+	id = 159
+	name = "Jordan Creek"
+	manpower = 34400
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		owner = IAX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		add_core_of = IAX
+		victory_points = {
+			# Valley View
+			10698
+			5
+		}
+		victory_points = {
+			# Glen Oaks
+			11495
+			5
+		}
+		victory_points = {
+			# Jordan Creek Mall
+			11636
+			10
+		}
+		victory_points = {
+			# Booneville
+			14011
+			5
+		}
+	}
+	provinces = {
+		10698
+		11490
+		11495
+		11636
+		14011
+	}
+	local_supplies = 0
+}
