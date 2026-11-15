@@ -12,13 +12,13 @@ state = {
 		tungsten = 0
 	}
 	history = {
-		owner = IAX
+		#owner = IAX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
 		}
-		add_core_of = IAX
+		#add_core_of = IAX
 	}
 	provinces = {
 		9809
@@ -66,8 +66,10 @@ state = {
 		10782
 		10783
 		10905
+		10908
 		10911
 		10913
+		10916
 		10919
 		11389
 		11390
@@ -133,6 +135,7 @@ state = {
 		11773
 		11776
 		11782
+		11784
 		11785
 		11790
 		11792
@@ -142,6 +145,8 @@ state = {
 		11797
 		11798
 		11800
+		11801
+		11803
 		11804
 		11937
 		11939

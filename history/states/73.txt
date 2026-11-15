@@ -1,0 +1,46 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	manpower = 1000
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = JJN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = JJN
+	}
+	provinces = {
+		2078
+		2079
+		2080
+		2081
+		2082
+		2083
+		2084
+		2085
+		2086
+		2087
+		2088
+		2089
+		2090
+		2091
+		2092
+		2093
+		2094
+		2095
+		2096
+		2097
+	}
+	local_supplies = 0
+}
