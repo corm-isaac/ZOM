@@ -31,7 +31,6 @@ state = {
 		7440
 		7443
 		9373
-		19682
 	}
 	local_supplies = 0
 }
