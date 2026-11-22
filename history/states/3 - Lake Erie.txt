@@ -1,7 +1,7 @@
 state = {
-	id = 364
-	name = "STATE_364"
-	manpower = 1000
+	id = 3
+	name = "Lake Erie"	# Lake Erie
+	manpower = 0
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -14,39 +14,37 @@ state = {
 	history = {
 		#owner = IAX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 			arms_factory = 0
 			industrial_complex = 0
 		}
 		#add_core_of = IAX
 	}
 	provinces = {
-		16316
-		16317
-		16318
-		16319
-		16320
-		16321
-		16322
-		16323
-		16324
-		16325
-		16326
-		16327
-		16328
-		16329
-		16330
-		16331
-		16332
-		16333
-		16334
-		16335
-		16336
-		16337
-		16338
-		16339
-		16340
-		16341
+		16440
+		16441
+		16444
+		16445
+		16446
+		16448
+		16450
+		16453
+		16454
+		16463
+		16464
+		17426
+		17428
+		17441
+		17443
+		17457
+		18085
+		18089
+		18090
+		18094
+		18852
+		19278
+		19298
+		19300
 	}
 	local_supplies = 0
 }
