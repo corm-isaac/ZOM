@@ -21,7 +21,6 @@ state = {
 		#add_core_of = IAX
 	}
 	provinces = {
-		17309
 		17310
 		17311
 		17312

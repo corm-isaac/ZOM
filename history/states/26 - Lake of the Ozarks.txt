@@ -1,0 +1,31 @@
+state = {
+	id = 26
+	name = "Lake of the Ozarks"
+	manpower = 0
+	state_category = rural
+	resources = {
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 0
+		tungsten = 0
+	}
+	history = {
+		#owner = IAX
+		buildings = {
+			infrastructure = 9
+			arms_factory = 0
+			industrial_complex = 0
+		}
+		#add_core_of = IAX
+	}
+	provinces = {
+		15609
+		15612
+		15884
+		15893
+		15894
+	}
+	local_supplies = 0
+}

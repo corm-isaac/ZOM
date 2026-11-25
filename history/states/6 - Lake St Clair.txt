@@ -1,7 +1,7 @@
 state = {
 	id = 6
 	name = "Lake St Clair"	# Lake St. Clair
-	manpower = 1000
+	manpower = 0
 	state_category = rural
 	resources = {
 		aluminium = 0
@@ -14,7 +14,7 @@ state = {
 	history = {
 		#owner = IAX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 			arms_factory = 0
 			industrial_complex = 0
 		}

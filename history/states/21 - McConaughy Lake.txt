@@ -1,6 +1,6 @@
 state = {
-	id = 23
-	name = "STATE_23"
+	id = 21
+	name = "McConaughy Lake"
 	manpower = 1000
 	state_category = rural
 	resources = {
@@ -21,39 +21,7 @@ state = {
 		#add_core_of = IAX
 	}
 	provinces = {
-		4277
-		4281
-		4282
-		4285
-		4296
-		4298
-		4300
-		4303
-		4305
-		4306
-		4308
-		8252
-		8259
-		8266
-		8270
-		8276
-		8283
-		8285
-		8286
-		8288
-		8296
-		8300
-		8303
-		8306
-		8308
-		8315
-		8316
-		9080
-		9084
-		9086
-		9099
-		9112
-		9115
+		14637
 	}
 	local_supplies = 0
 }
